@@ -1,0 +1,11 @@
+canonical_name,category,common_brands,size_units,notes
+milk,dairy,"Store Brand,Horizon,Organic Valley",gallon,Whole milk only for consistency
+eggs,dairy,"Store Brand,Eggland's Best,Pete and Gerry's",dozen,Large grade A
+bread,bakery,"Wonder,Nature's Own,Store Brand",loaf_20oz,White sandwich bread
+bananas,produce,Chiquita,per_lb,Yellow bananas
+chicken breast,meat,"Tyson,Store Brand,Perdue",per_lb,Boneless skinless
+ground beef,meat,"Store Brand,Laura's Lean",per_lb,80/20 blend
+cereal,dry_goods,"Cheerios,Corn Flakes,Store Brand",18oz_box,Original flavor only
+pasta,dry_goods,"Barilla,Store Brand",16oz_box,Spaghetti or penne
+rice,dry_goods,"Mahatma,Store Brand,Uncle Ben's",2lb_bag,Long grain white
+canned_vegetables,canned_goods,"Del Monte,Green Giant,Store Brand",15oz_can,Green beans or corn

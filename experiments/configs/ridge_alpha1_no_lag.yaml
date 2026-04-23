@@ -1,0 +1,9 @@
+# Experiment: Ridge regression, alpha=1.0, no lag features
+# Rationale: OLS may overfit on small panel; Ridge adds L2 regularization
+# Change from baseline: model switched from ols to ridge, alpha=1.0
+# One change only per iteration rule: model type only
+
+model: ridge
+features: without_lag
+params:
+  alpha: 1.0
