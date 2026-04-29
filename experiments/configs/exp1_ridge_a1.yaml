@@ -1,0 +1,4 @@
+model: ridge
+features: without_lag
+params:
+  alpha: 1.0

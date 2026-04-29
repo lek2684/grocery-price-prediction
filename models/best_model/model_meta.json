@@ -1,0 +1,8 @@
+{
+  "run_id": "exp5_ols_with_lag",
+  "config": {
+    "model": "ols",
+    "features": "with_lag",
+    "params": {}
+  }
+}

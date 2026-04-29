@@ -1,0 +1,1041 @@
+product_name,brand,package_size,price,unit_price,retailer,scrape_date,category
+milk,Store Brand,standard,3.91,3.21,retailer_a,2024-01-07,dairy
+milk,Store Brand,standard,3.89,4.28,retailer_a,2024-01-14,dairy
+milk,Store Brand,standard,3.97,2.68,retailer_a,2024-01-21,dairy
+milk,Store Brand,standard,3.95,4.16,retailer_a,2024-01-28,dairy
+milk,Store Brand,standard,3.91,3.35,retailer_a,2024-02-04,dairy
+milk,Store Brand,standard,3.91,3.89,retailer_a,2024-02-11,dairy
+milk,Store Brand,standard,3.9,3.69,retailer_a,2024-02-18,dairy
+milk,Store Brand,standard,3.96,2.93,retailer_a,2024-02-25,dairy
+milk,Store Brand,standard,3.96,4.76,retailer_a,2024-03-03,dairy
+milk,Store Brand,standard,3.9,4.24,retailer_a,2024-03-10,dairy
+milk,Store Brand,standard,3.94,3.56,retailer_a,2024-03-17,dairy
+milk,Store Brand,standard,3.96,3.45,retailer_a,2024-03-24,dairy
+milk,Store Brand,standard,4.01,3.44,retailer_a,2024-03-31,dairy
+milk,Store Brand,standard,3.93,4.23,retailer_a,2024-04-07,dairy
+milk,Store Brand,standard,4.01,4.28,retailer_a,2024-04-14,dairy
+milk,Store Brand,standard,3.99,3.88,retailer_a,2024-04-21,dairy
+milk,Store Brand,standard,3.93,3.74,retailer_a,2024-04-28,dairy
+milk,Store Brand,standard,3.96,3.36,retailer_a,2024-05-05,dairy
+milk,Store Brand,standard,4.0,2.68,retailer_a,2024-05-12,dairy
+milk,Store Brand,standard,3.97,4.23,retailer_a,2024-05-19,dairy
+milk,Store Brand,standard,4.02,4.72,retailer_a,2024-05-26,dairy
+milk,Store Brand,standard,4.02,4.56,retailer_a,2024-06-02,dairy
+milk,Store Brand,standard,3.99,4.72,retailer_a,2024-06-09,dairy
+milk,Store Brand,standard,4.02,3.91,retailer_a,2024-06-16,dairy
+milk,Store Brand,standard,4.01,3.55,retailer_a,2024-06-23,dairy
+milk,Store Brand,standard,4.03,3.1,retailer_a,2024-06-30,dairy
+milk,Store Brand,standard,3.98,3.47,retailer_a,2024-07-07,dairy
+milk,Store Brand,standard,4.03,3.67,retailer_a,2024-07-14,dairy
+milk,Store Brand,standard,3.97,3.43,retailer_a,2024-07-21,dairy
+milk,Store Brand,standard,3.95,4.05,retailer_a,2024-07-28,dairy
+milk,Store Brand,standard,4.02,4.71,retailer_a,2024-08-04,dairy
+milk,Store Brand,standard,3.93,4.31,retailer_a,2024-08-11,dairy
+milk,Store Brand,standard,3.99,4.29,retailer_a,2024-08-18,dairy
+milk,Store Brand,standard,3.96,3.36,retailer_a,2024-08-25,dairy
+milk,Store Brand,standard,3.92,3.57,retailer_a,2024-09-01,dairy
+milk,Store Brand,standard,3.94,2.81,retailer_a,2024-09-08,dairy
+milk,Store Brand,standard,3.95,4.13,retailer_a,2024-09-15,dairy
+milk,Store Brand,standard,3.94,3.8,retailer_a,2024-09-22,dairy
+milk,Store Brand,standard,3.95,3.06,retailer_a,2024-09-29,dairy
+milk,Store Brand,standard,3.97,2.68,retailer_a,2024-10-06,dairy
+milk,Store Brand,standard,3.88,4.7,retailer_a,2024-10-13,dairy
+milk,Store Brand,standard,3.96,3.44,retailer_a,2024-10-20,dairy
+milk,Store Brand,standard,3.96,3.47,retailer_a,2024-10-27,dairy
+milk,Store Brand,standard,4.24,4.37,retailer_a,2024-11-03,dairy
+milk,Store Brand,standard,4.03,3.08,retailer_a,2024-11-10,dairy
+milk,Store Brand,standard,4.02,3.24,retailer_a,2024-11-17,dairy
+milk,Store Brand,standard,4.02,2.9,retailer_a,2024-11-24,dairy
+milk,Store Brand,standard,4.09,4.4,retailer_a,2024-12-01,dairy
+milk,Store Brand,standard,4.01,4.94,retailer_a,2024-12-08,dairy
+milk,Store Brand,standard,4.0,4.17,retailer_a,2024-12-15,dairy
+milk,Store Brand,standard,3.99,3.73,retailer_a,2024-12-22,dairy
+milk,Store Brand,standard,4.06,4.53,retailer_a,2024-12-29,dairy
+milk,Store Brand,standard,3.71,2.62,retailer_b,2024-01-07,dairy
+milk,Store Brand,standard,3.74,2.96,retailer_b,2024-01-14,dairy
+milk,Store Brand,standard,3.77,3.89,retailer_b,2024-01-21,dairy
+milk,Store Brand,standard,3.82,2.67,retailer_b,2024-01-28,dairy
+milk,Store Brand,standard,3.79,3.63,retailer_b,2024-02-04,dairy
+milk,Store Brand,standard,3.81,2.67,retailer_b,2024-02-11,dairy
+milk,Store Brand,standard,3.8,4.42,retailer_b,2024-02-18,dairy
+milk,Store Brand,standard,3.81,2.67,retailer_b,2024-02-25,dairy
+milk,Store Brand,standard,3.82,4.19,retailer_b,2024-03-03,dairy
+milk,Store Brand,standard,3.78,2.94,retailer_b,2024-03-10,dairy
+milk,Store Brand,standard,3.77,3.9,retailer_b,2024-03-17,dairy
+milk,Store Brand,standard,3.85,2.91,retailer_b,2024-03-24,dairy
+milk,Store Brand,standard,3.86,3.22,retailer_b,2024-03-31,dairy
+milk,Store Brand,standard,3.85,3.64,retailer_b,2024-04-07,dairy
+milk,Store Brand,standard,4.05,3.77,retailer_b,2024-04-14,dairy
+milk,Store Brand,standard,3.8,3.06,retailer_b,2024-04-21,dairy
+milk,Store Brand,standard,3.84,3.35,retailer_b,2024-04-28,dairy
+milk,Store Brand,standard,3.89,2.98,retailer_b,2024-05-05,dairy
+milk,Store Brand,standard,3.79,2.58,retailer_b,2024-05-12,dairy
+milk,Store Brand,standard,3.85,3.64,retailer_b,2024-05-19,dairy
+milk,Store Brand,standard,4.1,2.93,retailer_b,2024-05-26,dairy
+milk,Store Brand,standard,3.83,3.58,retailer_b,2024-06-02,dairy
+milk,Store Brand,standard,3.81,3.2,retailer_b,2024-06-09,dairy
+milk,Store Brand,standard,3.86,3.0,retailer_b,2024-06-16,dairy
+milk,Store Brand,standard,3.79,2.54,retailer_b,2024-06-23,dairy
+milk,Store Brand,standard,3.83,3.29,retailer_b,2024-06-30,dairy
+milk,Store Brand,standard,3.83,2.96,retailer_b,2024-07-07,dairy
+milk,Store Brand,standard,3.84,3.82,retailer_b,2024-07-14,dairy
+milk,Store Brand,standard,3.83,2.66,retailer_b,2024-07-21,dairy
+milk,Store Brand,standard,3.83,3.33,retailer_b,2024-07-28,dairy
+milk,Store Brand,standard,3.83,2.82,retailer_b,2024-08-04,dairy
+milk,Store Brand,standard,3.85,3.71,retailer_b,2024-08-11,dairy
+milk,Store Brand,standard,3.77,4.57,retailer_b,2024-08-18,dairy
+milk,Store Brand,standard,3.79,3.21,retailer_b,2024-08-25,dairy
+milk,Store Brand,standard,3.83,4.64,retailer_b,2024-09-01,dairy
+milk,Store Brand,standard,3.74,3.55,retailer_b,2024-09-08,dairy
+milk,Store Brand,standard,3.8,4.0,retailer_b,2024-09-15,dairy
+milk,Store Brand,standard,3.76,4.37,retailer_b,2024-09-22,dairy
+milk,Store Brand,standard,3.81,3.06,retailer_b,2024-09-29,dairy
+milk,Store Brand,standard,3.78,2.55,retailer_b,2024-10-06,dairy
+milk,Store Brand,standard,3.73,3.77,retailer_b,2024-10-13,dairy
+milk,Store Brand,standard,3.82,4.47,retailer_b,2024-10-20,dairy
+milk,Store Brand,standard,3.84,4.17,retailer_b,2024-10-27,dairy
+milk,Store Brand,standard,3.86,3.96,retailer_b,2024-11-03,dairy
+milk,Store Brand,standard,3.9,3.92,retailer_b,2024-11-10,dairy
+milk,Store Brand,standard,4.1,3.11,retailer_b,2024-11-17,dairy
+milk,Store Brand,standard,3.93,4.04,retailer_b,2024-11-24,dairy
+milk,Store Brand,standard,3.89,2.92,retailer_b,2024-12-01,dairy
+milk,Store Brand,standard,3.88,4.47,retailer_b,2024-12-08,dairy
+milk,Store Brand,standard,3.9,3.45,retailer_b,2024-12-15,dairy
+milk,Store Brand,standard,3.87,3.14,retailer_b,2024-12-22,dairy
+milk,Store Brand,standard,3.84,4.62,retailer_b,2024-12-29,dairy
+eggs,Store Brand,standard,2.55,1.82,retailer_a,2024-01-07,dairy
+eggs,Store Brand,standard,2.44,2.67,retailer_a,2024-01-14,dairy
+eggs,Store Brand,standard,2.52,2.08,retailer_a,2024-01-21,dairy
+eggs,Store Brand,standard,2.49,2.07,retailer_a,2024-01-28,dairy
+eggs,Store Brand,standard,2.59,2.19,retailer_a,2024-02-04,dairy
+eggs,Store Brand,standard,2.48,2.32,retailer_a,2024-02-11,dairy
+eggs,Store Brand,standard,2.55,2.49,retailer_a,2024-02-18,dairy
+eggs,Store Brand,standard,2.52,3.09,retailer_a,2024-02-25,dairy
+eggs,Store Brand,standard,2.53,1.96,retailer_a,2024-03-03,dairy
+eggs,Store Brand,standard,2.6,1.84,retailer_a,2024-03-10,dairy
+eggs,Store Brand,standard,2.6,2.81,retailer_a,2024-03-17,dairy
+eggs,Store Brand,standard,2.6,1.91,retailer_a,2024-03-24,dairy
+eggs,Store Brand,standard,2.57,1.91,retailer_a,2024-03-31,dairy
+eggs,Store Brand,standard,2.58,1.78,retailer_a,2024-04-07,dairy
+eggs,Store Brand,standard,2.57,1.93,retailer_a,2024-04-14,dairy
+eggs,Store Brand,standard,2.63,1.84,retailer_a,2024-04-21,dairy
+eggs,Store Brand,standard,2.64,1.85,retailer_a,2024-04-28,dairy
+eggs,Store Brand,standard,2.59,3.21,retailer_a,2024-05-05,dairy
+eggs,Store Brand,standard,2.85,2.37,retailer_a,2024-05-12,dairy
+eggs,Store Brand,standard,2.58,2.32,retailer_a,2024-05-19,dairy
+eggs,Store Brand,standard,2.54,1.91,retailer_a,2024-05-26,dairy
+eggs,Store Brand,standard,2.53,1.87,retailer_a,2024-06-02,dairy
+eggs,Store Brand,standard,2.58,2.18,retailer_a,2024-06-09,dairy
+eggs,Store Brand,standard,2.54,1.79,retailer_a,2024-06-16,dairy
+eggs,Store Brand,standard,2.54,1.91,retailer_a,2024-06-23,dairy
+eggs,Store Brand,standard,2.56,2.94,retailer_a,2024-06-30,dairy
+eggs,Store Brand,standard,2.58,1.88,retailer_a,2024-07-07,dairy
+eggs,Store Brand,standard,2.54,2.96,retailer_a,2024-07-14,dairy
+eggs,Store Brand,standard,2.5,1.71,retailer_a,2024-07-21,dairy
+eggs,Store Brand,standard,2.75,2.07,retailer_a,2024-07-28,dairy
+eggs,Store Brand,standard,2.53,2.12,retailer_a,2024-08-04,dairy
+eggs,Store Brand,standard,2.55,1.78,retailer_a,2024-08-11,dairy
+eggs,Store Brand,standard,2.55,2.26,retailer_a,2024-08-18,dairy
+eggs,Store Brand,standard,2.51,2.84,retailer_a,2024-08-25,dairy
+eggs,Store Brand,standard,2.56,2.12,retailer_a,2024-09-01,dairy
+eggs,Store Brand,standard,2.77,2.61,retailer_a,2024-09-08,dairy
+eggs,Store Brand,standard,2.58,1.75,retailer_a,2024-09-15,dairy
+eggs,Store Brand,standard,2.54,1.72,retailer_a,2024-09-22,dairy
+eggs,Store Brand,standard,2.56,2.16,retailer_a,2024-09-29,dairy
+eggs,Store Brand,standard,2.81,2.41,retailer_a,2024-10-06,dairy
+eggs,Store Brand,standard,2.62,2.11,retailer_a,2024-10-13,dairy
+eggs,Store Brand,standard,2.6,1.82,retailer_a,2024-10-20,dairy
+eggs,Store Brand,standard,2.66,2.86,retailer_a,2024-10-27,dairy
+eggs,Store Brand,standard,2.54,2.43,retailer_a,2024-11-03,dairy
+eggs,Store Brand,standard,2.8,1.88,retailer_a,2024-11-10,dairy
+eggs,Store Brand,standard,2.59,2.2,retailer_a,2024-11-17,dairy
+eggs,Store Brand,standard,2.63,2.88,retailer_a,2024-11-24,dairy
+eggs,Store Brand,standard,2.58,1.88,retailer_a,2024-12-01,dairy
+eggs,Store Brand,standard,2.56,1.82,retailer_a,2024-12-08,dairy
+eggs,Store Brand,standard,2.69,3.29,retailer_a,2024-12-15,dairy
+eggs,Store Brand,standard,2.93,3.24,retailer_a,2024-12-22,dairy
+eggs,Store Brand,standard,2.62,2.46,retailer_a,2024-12-29,dairy
+eggs,Store Brand,standard,2.34,2.36,retailer_b,2024-01-07,dairy
+eggs,Store Brand,standard,2.4,1.71,retailer_b,2024-01-14,dairy
+eggs,Store Brand,standard,2.36,1.61,retailer_b,2024-01-21,dairy
+eggs,Store Brand,standard,2.37,2.44,retailer_b,2024-01-28,dairy
+eggs,Store Brand,standard,2.58,2.11,retailer_b,2024-02-04,dairy
+eggs,Store Brand,standard,2.38,1.87,retailer_b,2024-02-11,dairy
+eggs,Store Brand,standard,2.33,1.83,retailer_b,2024-02-18,dairy
+eggs,Store Brand,standard,2.45,1.83,retailer_b,2024-02-25,dairy
+eggs,Store Brand,standard,2.45,2.05,retailer_b,2024-03-03,dairy
+eggs,Store Brand,standard,2.41,2.23,retailer_b,2024-03-10,dairy
+eggs,Store Brand,standard,2.44,2.57,retailer_b,2024-03-17,dairy
+eggs,Store Brand,standard,2.48,3.06,retailer_b,2024-03-24,dairy
+eggs,Store Brand,standard,2.47,2.23,retailer_b,2024-03-31,dairy
+eggs,Store Brand,standard,2.36,2.26,retailer_b,2024-04-07,dairy
+eggs,Store Brand,standard,2.49,2.02,retailer_b,2024-04-14,dairy
+eggs,Store Brand,standard,2.44,1.67,retailer_b,2024-04-21,dairy
+eggs,Store Brand,standard,2.37,1.59,retailer_b,2024-04-28,dairy
+eggs,Store Brand,standard,2.43,2.36,retailer_b,2024-05-05,dairy
+eggs,Store Brand,standard,2.38,2.67,retailer_b,2024-05-12,dairy
+eggs,Store Brand,standard,2.46,2.71,retailer_b,2024-05-19,dairy
+eggs,Store Brand,standard,2.45,2.35,retailer_b,2024-05-26,dairy
+eggs,Store Brand,standard,2.39,2.11,retailer_b,2024-06-02,dairy
+eggs,Store Brand,standard,2.39,2.88,retailer_b,2024-06-09,dairy
+eggs,Store Brand,standard,2.45,2.46,retailer_b,2024-06-16,dairy
+eggs,Store Brand,standard,2.42,2.29,retailer_b,2024-06-23,dairy
+eggs,Store Brand,standard,2.38,1.85,retailer_b,2024-06-30,dairy
+eggs,Store Brand,standard,2.39,1.65,retailer_b,2024-07-07,dairy
+eggs,Store Brand,standard,2.42,2.44,retailer_b,2024-07-14,dairy
+eggs,Store Brand,standard,2.44,2.58,retailer_b,2024-07-21,dairy
+eggs,Store Brand,standard,2.44,2.14,retailer_b,2024-07-28,dairy
+eggs,Store Brand,standard,2.35,1.78,retailer_b,2024-08-04,dairy
+eggs,Store Brand,standard,2.46,2.52,retailer_b,2024-08-11,dairy
+eggs,Store Brand,standard,2.43,2.07,retailer_b,2024-08-18,dairy
+eggs,Store Brand,standard,2.41,2.16,retailer_b,2024-08-25,dairy
+eggs,Store Brand,standard,2.34,2.2,retailer_b,2024-09-01,dairy
+eggs,Store Brand,standard,2.41,2.35,retailer_b,2024-09-08,dairy
+eggs,Store Brand,standard,2.38,1.67,retailer_b,2024-09-15,dairy
+eggs,Store Brand,standard,2.36,1.85,retailer_b,2024-09-22,dairy
+eggs,Store Brand,standard,2.4,2.04,retailer_b,2024-09-29,dairy
+eggs,Store Brand,standard,2.47,1.87,retailer_b,2024-10-06,dairy
+eggs,Store Brand,standard,2.37,2.25,retailer_b,2024-10-13,dairy
+eggs,Store Brand,standard,2.41,2.01,retailer_b,2024-10-20,dairy
+eggs,Store Brand,standard,2.36,2.6,retailer_b,2024-10-27,dairy
+eggs,Store Brand,standard,2.45,2.68,retailer_b,2024-11-03,dairy
+eggs,Store Brand,standard,2.41,1.69,retailer_b,2024-11-10,dairy
+eggs,Store Brand,standard,2.4,2.06,retailer_b,2024-11-17,dairy
+eggs,Store Brand,standard,2.46,2.28,retailer_b,2024-11-24,dairy
+eggs,Store Brand,standard,2.7,1.92,retailer_b,2024-12-01,dairy
+eggs,Store Brand,standard,2.44,1.92,retailer_b,2024-12-08,dairy
+eggs,Store Brand,standard,2.5,2.1,retailer_b,2024-12-15,dairy
+eggs,Store Brand,standard,2.41,2.59,retailer_b,2024-12-22,dairy
+eggs,Store Brand,standard,2.51,2.29,retailer_b,2024-12-29,dairy
+bread,Store Brand,standard,3.22,2.62,retailer_a,2024-01-07,bakery
+bread,Store Brand,standard,3.3,2.73,retailer_a,2024-01-14,bakery
+bread,Store Brand,standard,3.31,3.96,retailer_a,2024-01-21,bakery
+bread,Store Brand,standard,3.27,3.66,retailer_a,2024-01-28,bakery
+bread,Store Brand,standard,3.37,2.64,retailer_a,2024-02-04,bakery
+bread,Store Brand,standard,3.31,2.72,retailer_a,2024-02-11,bakery
+bread,Store Brand,standard,3.24,2.23,retailer_a,2024-02-18,bakery
+bread,Store Brand,standard,3.32,2.25,retailer_a,2024-02-25,bakery
+bread,Store Brand,standard,3.37,3.64,retailer_a,2024-03-03,bakery
+bread,Store Brand,standard,3.34,2.53,retailer_a,2024-03-10,bakery
+bread,Store Brand,standard,3.41,2.51,retailer_a,2024-03-17,bakery
+bread,Store Brand,standard,3.38,3.7,retailer_a,2024-03-24,bakery
+bread,Store Brand,standard,3.39,2.91,retailer_a,2024-03-31,bakery
+bread,Store Brand,standard,3.36,2.38,retailer_a,2024-04-07,bakery
+bread,Store Brand,standard,3.43,3.22,retailer_a,2024-04-14,bakery
+bread,Store Brand,standard,3.37,3.33,retailer_a,2024-04-21,bakery
+bread,Store Brand,standard,3.39,2.37,retailer_a,2024-04-28,bakery
+bread,Store Brand,standard,3.45,2.92,retailer_a,2024-05-05,bakery
+bread,Store Brand,standard,3.39,2.33,retailer_a,2024-05-12,bakery
+bread,Store Brand,standard,3.42,3.31,retailer_a,2024-05-19,bakery
+bread,Store Brand,standard,3.4,2.9,retailer_a,2024-05-26,bakery
+bread,Store Brand,standard,3.36,2.49,retailer_a,2024-06-02,bakery
+bread,Store Brand,standard,3.36,2.54,retailer_a,2024-06-09,bakery
+bread,Store Brand,standard,3.34,2.79,retailer_a,2024-06-16,bakery
+bread,Store Brand,standard,3.39,2.47,retailer_a,2024-06-23,bakery
+bread,Store Brand,standard,3.38,2.43,retailer_a,2024-06-30,bakery
+bread,Store Brand,standard,3.36,3.71,retailer_a,2024-07-07,bakery
+bread,Store Brand,standard,3.33,2.55,retailer_a,2024-07-14,bakery
+bread,Store Brand,standard,3.4,2.88,retailer_a,2024-07-21,bakery
+bread,Store Brand,standard,3.41,3.27,retailer_a,2024-07-28,bakery
+bread,Store Brand,standard,3.29,2.25,retailer_a,2024-08-04,bakery
+bread,Store Brand,standard,3.41,2.82,retailer_a,2024-08-11,bakery
+bread,Store Brand,standard,3.45,2.45,retailer_a,2024-08-18,bakery
+bread,Store Brand,standard,3.36,2.81,retailer_a,2024-08-25,bakery
+bread,Store Brand,standard,3.37,3.72,retailer_a,2024-09-01,bakery
+bread,Store Brand,standard,3.36,2.74,retailer_a,2024-09-08,bakery
+bread,Store Brand,standard,3.41,2.36,retailer_a,2024-09-15,bakery
+bread,Store Brand,standard,3.33,3.79,retailer_a,2024-09-22,bakery
+bread,Store Brand,standard,3.36,3.11,retailer_a,2024-09-29,bakery
+bread,Store Brand,standard,3.4,3.29,retailer_a,2024-10-06,bakery
+bread,Store Brand,standard,3.32,2.3,retailer_a,2024-10-13,bakery
+bread,Store Brand,standard,3.3,3.16,retailer_a,2024-10-20,bakery
+bread,Store Brand,standard,3.36,3.01,retailer_a,2024-10-27,bakery
+bread,Store Brand,standard,3.44,3.73,retailer_a,2024-11-03,bakery
+bread,Store Brand,standard,3.27,3.1,retailer_a,2024-11-10,bakery
+bread,Store Brand,standard,3.39,2.73,retailer_a,2024-11-17,bakery
+bread,Store Brand,standard,3.38,2.26,retailer_a,2024-11-24,bakery
+bread,Store Brand,standard,3.36,2.76,retailer_a,2024-12-01,bakery
+bread,Store Brand,standard,3.41,2.39,retailer_a,2024-12-08,bakery
+bread,Store Brand,standard,3.42,3.66,retailer_a,2024-12-15,bakery
+bread,Store Brand,standard,3.43,4.05,retailer_a,2024-12-22,bakery
+bread,Store Brand,standard,3.42,3.06,retailer_a,2024-12-29,bakery
+bread,Store Brand,standard,3.03,2.54,retailer_b,2024-01-07,bakery
+bread,Store Brand,standard,3.19,3.44,retailer_b,2024-01-14,bakery
+bread,Store Brand,standard,3.1,2.85,retailer_b,2024-01-21,bakery
+bread,Store Brand,standard,3.14,3.45,retailer_b,2024-01-28,bakery
+bread,Store Brand,standard,3.21,3.36,retailer_b,2024-02-04,bakery
+bread,Store Brand,standard,3.23,2.54,retailer_b,2024-02-11,bakery
+bread,Store Brand,standard,3.17,3.28,retailer_b,2024-02-18,bakery
+bread,Store Brand,standard,3.22,3.32,retailer_b,2024-02-25,bakery
+bread,Store Brand,standard,3.23,3.0,retailer_b,2024-03-03,bakery
+bread,Store Brand,standard,3.23,3.42,retailer_b,2024-03-10,bakery
+bread,Store Brand,standard,3.24,3.77,retailer_b,2024-03-17,bakery
+bread,Store Brand,standard,3.21,3.92,retailer_b,2024-03-24,bakery
+bread,Store Brand,standard,3.24,2.27,retailer_b,2024-03-31,bakery
+bread,Store Brand,standard,3.18,3.06,retailer_b,2024-04-07,bakery
+bread,Store Brand,standard,3.2,3.24,retailer_b,2024-04-14,bakery
+bread,Store Brand,standard,3.18,2.93,retailer_b,2024-04-21,bakery
+bread,Store Brand,standard,3.15,2.15,retailer_b,2024-04-28,bakery
+bread,Store Brand,standard,3.3,3.67,retailer_b,2024-05-05,bakery
+bread,Store Brand,standard,3.23,2.38,retailer_b,2024-05-12,bakery
+bread,Store Brand,standard,3.28,4.02,retailer_b,2024-05-19,bakery
+bread,Store Brand,standard,3.25,3.31,retailer_b,2024-05-26,bakery
+bread,Store Brand,standard,3.16,2.28,retailer_b,2024-06-02,bakery
+bread,Store Brand,standard,3.23,3.26,retailer_b,2024-06-09,bakery
+bread,Store Brand,standard,3.24,2.25,retailer_b,2024-06-16,bakery
+bread,Store Brand,standard,3.23,2.72,retailer_b,2024-06-23,bakery
+bread,Store Brand,standard,3.18,2.3,retailer_b,2024-06-30,bakery
+bread,Store Brand,standard,3.23,2.55,retailer_b,2024-07-07,bakery
+bread,Store Brand,standard,3.25,2.26,retailer_b,2024-07-14,bakery
+bread,Store Brand,standard,3.14,3.77,retailer_b,2024-07-21,bakery
+bread,Store Brand,standard,3.16,2.4,retailer_b,2024-07-28,bakery
+bread,Store Brand,standard,3.21,2.99,retailer_b,2024-08-04,bakery
+bread,Store Brand,standard,3.17,3.02,retailer_b,2024-08-11,bakery
+bread,Store Brand,standard,3.16,2.79,retailer_b,2024-08-18,bakery
+bread,Store Brand,standard,3.24,2.23,retailer_b,2024-08-25,bakery
+bread,Store Brand,standard,3.17,3.22,retailer_b,2024-09-01,bakery
+bread,Store Brand,standard,3.23,3.86,retailer_b,2024-09-08,bakery
+bread,Store Brand,standard,3.3,2.46,retailer_b,2024-09-15,bakery
+bread,Store Brand,standard,3.2,3.75,retailer_b,2024-09-22,bakery
+bread,Store Brand,standard,3.2,2.9,retailer_b,2024-09-29,bakery
+bread,Store Brand,standard,3.28,2.39,retailer_b,2024-10-06,bakery
+bread,Store Brand,standard,3.24,2.67,retailer_b,2024-10-13,bakery
+bread,Store Brand,standard,3.25,3.76,retailer_b,2024-10-20,bakery
+bread,Store Brand,standard,3.22,2.73,retailer_b,2024-10-27,bakery
+bread,Store Brand,standard,3.25,2.48,retailer_b,2024-11-03,bakery
+bread,Store Brand,standard,3.25,2.33,retailer_b,2024-11-10,bakery
+bread,Store Brand,standard,3.28,2.87,retailer_b,2024-11-17,bakery
+bread,Store Brand,standard,3.26,2.72,retailer_b,2024-11-24,bakery
+bread,Store Brand,standard,3.26,3.96,retailer_b,2024-12-01,bakery
+bread,Store Brand,standard,3.22,2.18,retailer_b,2024-12-08,bakery
+bread,Store Brand,standard,3.31,2.92,retailer_b,2024-12-15,bakery
+bread,Store Brand,standard,3.28,2.38,retailer_b,2024-12-22,bakery
+bread,Store Brand,standard,3.29,2.7,retailer_b,2024-12-29,bakery
+bananas,Store Brand,standard,0.57,0.44,retailer_a,2024-01-07,produce
+bananas,Store Brand,standard,0.59,0.45,retailer_a,2024-01-14,produce
+bananas,Store Brand,standard,0.6,0.44,retailer_a,2024-01-21,produce
+bananas,Store Brand,standard,0.6,0.48,retailer_a,2024-01-28,produce
+bananas,Store Brand,standard,0.64,0.78,retailer_a,2024-02-04,produce
+bananas,Store Brand,standard,0.67,0.82,retailer_a,2024-02-11,produce
+bananas,Store Brand,standard,0.64,0.47,retailer_a,2024-02-18,produce
+bananas,Store Brand,standard,0.94,0.9,retailer_a,2024-02-25,produce
+bananas,Store Brand,standard,0.63,0.51,retailer_a,2024-03-03,produce
+bananas,Store Brand,standard,0.72,0.48,retailer_a,2024-03-10,produce
+bananas,Store Brand,standard,0.65,0.49,retailer_a,2024-03-17,produce
+bananas,Store Brand,standard,0.73,0.83,retailer_a,2024-03-24,produce
+bananas,Store Brand,standard,0.62,0.64,retailer_a,2024-03-31,produce
+bananas,Store Brand,standard,0.64,0.79,retailer_a,2024-04-07,produce
+bananas,Store Brand,standard,0.68,0.53,retailer_a,2024-04-14,produce
+bananas,Store Brand,standard,0.69,0.47,retailer_a,2024-04-21,produce
+bananas,Store Brand,standard,0.72,0.64,retailer_a,2024-04-28,produce
+bananas,Store Brand,standard,0.68,0.74,retailer_a,2024-05-05,produce
+bananas,Store Brand,standard,0.69,0.6,retailer_a,2024-05-12,produce
+bananas,Store Brand,standard,0.7,0.76,retailer_a,2024-05-19,produce
+bananas,Store Brand,standard,0.66,0.63,retailer_a,2024-05-26,produce
+bananas,Store Brand,standard,0.66,0.45,retailer_a,2024-06-02,produce
+bananas,Store Brand,standard,0.74,0.82,retailer_a,2024-06-09,produce
+bananas,Store Brand,standard,0.65,0.68,retailer_a,2024-06-16,produce
+bananas,Store Brand,standard,0.68,0.56,retailer_a,2024-06-23,produce
+bananas,Store Brand,standard,0.61,0.43,retailer_a,2024-06-30,produce
+bananas,Store Brand,standard,0.64,0.44,retailer_a,2024-07-07,produce
+bananas,Store Brand,standard,0.65,0.48,retailer_a,2024-07-14,produce
+bananas,Store Brand,standard,0.69,0.64,retailer_a,2024-07-21,produce
+bananas,Store Brand,standard,0.74,0.75,retailer_a,2024-07-28,produce
+bananas,Store Brand,standard,0.66,0.69,retailer_a,2024-08-04,produce
+bananas,Store Brand,standard,0.73,0.86,retailer_a,2024-08-11,produce
+bananas,Store Brand,standard,0.65,0.54,retailer_a,2024-08-18,produce
+bananas,Store Brand,standard,0.7,0.67,retailer_a,2024-08-25,produce
+bananas,Store Brand,standard,0.68,0.48,retailer_a,2024-09-01,produce
+bananas,Store Brand,standard,0.72,0.57,retailer_a,2024-09-08,produce
+bananas,Store Brand,standard,0.68,0.53,retailer_a,2024-09-15,produce
+bananas,Store Brand,standard,0.67,0.5,retailer_a,2024-09-22,produce
+bananas,Store Brand,standard,0.65,0.49,retailer_a,2024-09-29,produce
+bananas,Store Brand,standard,0.66,0.48,retailer_a,2024-10-06,produce
+bananas,Store Brand,standard,0.66,0.66,retailer_a,2024-10-13,produce
+bananas,Store Brand,standard,0.72,0.48,retailer_a,2024-10-20,produce
+bananas,Store Brand,standard,0.61,0.52,retailer_a,2024-10-27,produce
+bananas,Store Brand,standard,0.7,0.8,retailer_a,2024-11-03,produce
+bananas,Store Brand,standard,0.94,0.9,retailer_a,2024-11-10,produce
+bananas,Store Brand,standard,0.75,0.52,retailer_a,2024-11-17,produce
+bananas,Store Brand,standard,0.68,0.52,retailer_a,2024-11-24,produce
+bananas,Store Brand,standard,0.71,0.59,retailer_a,2024-12-01,produce
+bananas,Store Brand,standard,0.76,0.54,retailer_a,2024-12-08,produce
+bananas,Store Brand,standard,0.91,0.62,retailer_a,2024-12-15,produce
+bananas,Store Brand,standard,0.71,0.87,retailer_a,2024-12-22,produce
+bananas,Store Brand,standard,0.75,0.73,retailer_a,2024-12-29,produce
+bananas,Store Brand,standard,0.5,0.45,retailer_b,2024-01-07,produce
+bananas,Store Brand,standard,0.45,0.3,retailer_b,2024-01-14,produce
+bananas,Store Brand,standard,0.4,0.29,retailer_b,2024-01-21,produce
+bananas,Store Brand,standard,0.38,0.4,retailer_b,2024-01-28,produce
+bananas,Store Brand,standard,0.48,0.48,retailer_b,2024-02-04,produce
+bananas,Store Brand,standard,0.71,0.78,retailer_b,2024-02-11,produce
+bananas,Store Brand,standard,0.52,0.42,retailer_b,2024-02-18,produce
+bananas,Store Brand,standard,0.49,0.49,retailer_b,2024-02-25,produce
+bananas,Store Brand,standard,0.5,0.52,retailer_b,2024-03-03,produce
+bananas,Store Brand,standard,0.52,0.63,retailer_b,2024-03-10,produce
+bananas,Store Brand,standard,0.47,0.42,retailer_b,2024-03-17,produce
+bananas,Store Brand,standard,0.83,0.89,retailer_b,2024-03-24,produce
+bananas,Store Brand,standard,0.54,0.39,retailer_b,2024-03-31,produce
+bananas,Store Brand,standard,0.55,0.44,retailer_b,2024-04-07,produce
+bananas,Store Brand,standard,0.54,0.47,retailer_b,2024-04-14,produce
+bananas,Store Brand,standard,0.56,0.63,retailer_b,2024-04-21,produce
+bananas,Store Brand,standard,0.51,0.45,retailer_b,2024-04-28,produce
+bananas,Store Brand,standard,0.61,0.51,retailer_b,2024-05-05,produce
+bananas,Store Brand,standard,0.57,0.51,retailer_b,2024-05-12,produce
+bananas,Store Brand,standard,0.51,0.6,retailer_b,2024-05-19,produce
+bananas,Store Brand,standard,0.52,0.52,retailer_b,2024-05-26,produce
+bananas,Store Brand,standard,0.43,0.31,retailer_b,2024-06-02,produce
+bananas,Store Brand,standard,0.49,0.33,retailer_b,2024-06-09,produce
+bananas,Store Brand,standard,0.52,0.45,retailer_b,2024-06-16,produce
+bananas,Store Brand,standard,0.58,0.72,retailer_b,2024-06-23,produce
+bananas,Store Brand,standard,0.56,0.48,retailer_b,2024-06-30,produce
+bananas,Store Brand,standard,0.51,0.6,retailer_b,2024-07-07,produce
+bananas,Store Brand,standard,0.49,0.55,retailer_b,2024-07-14,produce
+bananas,Store Brand,standard,0.58,0.62,retailer_b,2024-07-21,produce
+bananas,Store Brand,standard,0.53,0.61,retailer_b,2024-07-28,produce
+bananas,Store Brand,standard,0.56,0.38,retailer_b,2024-08-04,produce
+bananas,Store Brand,standard,0.54,0.46,retailer_b,2024-08-11,produce
+bananas,Store Brand,standard,0.53,0.39,retailer_b,2024-08-18,produce
+bananas,Store Brand,standard,0.52,0.38,retailer_b,2024-08-25,produce
+bananas,Store Brand,standard,0.55,0.44,retailer_b,2024-09-01,produce
+bananas,Store Brand,standard,0.51,0.39,retailer_b,2024-09-08,produce
+bananas,Store Brand,standard,0.48,0.5,retailer_b,2024-09-15,produce
+bananas,Store Brand,standard,0.73,0.7,retailer_b,2024-09-22,produce
+bananas,Store Brand,standard,0.53,0.46,retailer_b,2024-09-29,produce
+bananas,Store Brand,standard,0.48,0.37,retailer_b,2024-10-06,produce
+bananas,Store Brand,standard,0.51,0.4,retailer_b,2024-10-13,produce
+bananas,Store Brand,standard,0.52,0.63,retailer_b,2024-10-20,produce
+bananas,Store Brand,standard,0.51,0.39,retailer_b,2024-10-27,produce
+bananas,Store Brand,standard,0.46,0.42,retailer_b,2024-11-03,produce
+bananas,Store Brand,standard,0.73,0.88,retailer_b,2024-11-10,produce
+bananas,Store Brand,standard,0.48,0.4,retailer_b,2024-11-17,produce
+bananas,Store Brand,standard,0.61,0.43,retailer_b,2024-11-24,produce
+bananas,Store Brand,standard,0.53,0.48,retailer_b,2024-12-01,produce
+bananas,Store Brand,standard,0.59,0.62,retailer_b,2024-12-08,produce
+bananas,Store Brand,standard,0.51,0.41,retailer_b,2024-12-15,produce
+bananas,Store Brand,standard,0.55,0.38,retailer_b,2024-12-22,produce
+bananas,Store Brand,standard,0.6,0.62,retailer_b,2024-12-29,produce
+chicken breast,Store Brand,standard,5.49,3.89,retailer_a,2024-01-07,meat
+chicken breast,Store Brand,standard,5.55,4.78,retailer_a,2024-01-14,meat
+chicken breast,Store Brand,standard,5.55,5.17,retailer_a,2024-01-21,meat
+chicken breast,Store Brand,standard,5.7,5.81,retailer_a,2024-01-28,meat
+chicken breast,Store Brand,standard,5.47,6.13,retailer_a,2024-02-04,meat
+chicken breast,Store Brand,standard,5.83,5.22,retailer_a,2024-02-11,meat
+chicken breast,Store Brand,standard,5.54,4.01,retailer_a,2024-02-18,meat
+chicken breast,Store Brand,standard,5.5,5.65,retailer_a,2024-02-25,meat
+chicken breast,Store Brand,standard,5.62,6.13,retailer_a,2024-03-03,meat
+chicken breast,Store Brand,standard,5.6,4.26,retailer_a,2024-03-10,meat
+chicken breast,Store Brand,standard,5.55,4.07,retailer_a,2024-03-17,meat
+chicken breast,Store Brand,standard,5.65,4.01,retailer_a,2024-03-24,meat
+chicken breast,Store Brand,standard,5.57,6.63,retailer_a,2024-03-31,meat
+chicken breast,Store Brand,standard,5.57,3.83,retailer_a,2024-04-07,meat
+chicken breast,Store Brand,standard,5.61,4.86,retailer_a,2024-04-14,meat
+chicken breast,Store Brand,standard,5.58,6.17,retailer_a,2024-04-21,meat
+chicken breast,Store Brand,standard,5.62,4.84,retailer_a,2024-04-28,meat
+chicken breast,Store Brand,standard,5.6,4.42,retailer_a,2024-05-05,meat
+chicken breast,Store Brand,standard,5.63,4.43,retailer_a,2024-05-12,meat
+chicken breast,Store Brand,standard,5.79,6.69,retailer_a,2024-05-19,meat
+chicken breast,Store Brand,standard,5.56,6.02,retailer_a,2024-05-26,meat
+chicken breast,Store Brand,standard,5.66,4.08,retailer_a,2024-06-02,meat
+chicken breast,Store Brand,standard,5.59,4.54,retailer_a,2024-06-09,meat
+chicken breast,Store Brand,standard,5.59,4.66,retailer_a,2024-06-16,meat
+chicken breast,Store Brand,standard,5.62,4.46,retailer_a,2024-06-23,meat
+chicken breast,Store Brand,standard,5.62,4.48,retailer_a,2024-06-30,meat
+chicken breast,Store Brand,standard,5.83,6.99,retailer_a,2024-07-07,meat
+chicken breast,Store Brand,standard,5.78,5.33,retailer_a,2024-07-14,meat
+chicken breast,Store Brand,standard,5.57,4.23,retailer_a,2024-07-21,meat
+chicken breast,Store Brand,standard,5.58,5.15,retailer_a,2024-07-28,meat
+chicken breast,Store Brand,standard,5.6,4.2,retailer_a,2024-08-04,meat
+chicken breast,Store Brand,standard,5.51,4.99,retailer_a,2024-08-11,meat
+chicken breast,Store Brand,standard,5.55,6.9,retailer_a,2024-08-18,meat
+chicken breast,Store Brand,standard,5.56,5.26,retailer_a,2024-08-25,meat
+chicken breast,Store Brand,standard,5.61,5.04,retailer_a,2024-09-01,meat
+chicken breast,Store Brand,standard,5.52,5.2,retailer_a,2024-09-08,meat
+chicken breast,Store Brand,standard,5.62,5.0,retailer_a,2024-09-15,meat
+chicken breast,Store Brand,standard,5.59,3.98,retailer_a,2024-09-22,meat
+chicken breast,Store Brand,standard,5.45,5.25,retailer_a,2024-09-29,meat
+chicken breast,Store Brand,standard,5.65,5.24,retailer_a,2024-10-06,meat
+chicken breast,Store Brand,standard,5.6,4.19,retailer_a,2024-10-13,meat
+chicken breast,Store Brand,standard,5.66,4.34,retailer_a,2024-10-20,meat
+chicken breast,Store Brand,standard,5.6,3.86,retailer_a,2024-10-27,meat
+chicken breast,Store Brand,standard,5.59,3.84,retailer_a,2024-11-03,meat
+chicken breast,Store Brand,standard,5.55,5.66,retailer_a,2024-11-10,meat
+chicken breast,Store Brand,standard,5.58,5.5,retailer_a,2024-11-17,meat
+chicken breast,Store Brand,standard,5.6,4.56,retailer_a,2024-11-24,meat
+chicken breast,Store Brand,standard,5.66,5.71,retailer_a,2024-12-01,meat
+chicken breast,Store Brand,standard,5.57,4.36,retailer_a,2024-12-08,meat
+chicken breast,Store Brand,standard,5.61,4.8,retailer_a,2024-12-15,meat
+chicken breast,Store Brand,standard,5.6,5.72,retailer_a,2024-12-22,meat
+chicken breast,Store Brand,standard,5.9,5.18,retailer_a,2024-12-29,meat
+chicken breast,Store Brand,standard,5.35,4.3,retailer_b,2024-01-07,meat
+chicken breast,Store Brand,standard,5.65,4.63,retailer_b,2024-01-14,meat
+chicken breast,Store Brand,standard,5.36,5.65,retailer_b,2024-01-21,meat
+chicken breast,Store Brand,standard,5.37,4.94,retailer_b,2024-01-28,meat
+chicken breast,Store Brand,standard,5.33,5.37,retailer_b,2024-02-04,meat
+chicken breast,Store Brand,standard,5.36,4.89,retailer_b,2024-02-11,meat
+chicken breast,Store Brand,standard,5.36,4.8,retailer_b,2024-02-18,meat
+chicken breast,Store Brand,standard,5.41,5.9,retailer_b,2024-02-25,meat
+chicken breast,Store Brand,standard,5.43,6.26,retailer_b,2024-03-03,meat
+chicken breast,Store Brand,standard,5.43,4.35,retailer_b,2024-03-10,meat
+chicken breast,Store Brand,standard,5.46,5.09,retailer_b,2024-03-17,meat
+chicken breast,Store Brand,standard,5.51,4.8,retailer_b,2024-03-24,meat
+chicken breast,Store Brand,standard,5.39,4.14,retailer_b,2024-03-31,meat
+chicken breast,Store Brand,standard,5.49,3.67,retailer_b,2024-04-07,meat
+chicken breast,Store Brand,standard,5.45,6.37,retailer_b,2024-04-14,meat
+chicken breast,Store Brand,standard,5.5,3.86,retailer_b,2024-04-21,meat
+chicken breast,Store Brand,standard,5.41,5.16,retailer_b,2024-04-28,meat
+chicken breast,Store Brand,standard,5.39,4.63,retailer_b,2024-05-05,meat
+chicken breast,Store Brand,standard,5.44,4.33,retailer_b,2024-05-12,meat
+chicken breast,Store Brand,standard,5.37,5.23,retailer_b,2024-05-19,meat
+chicken breast,Store Brand,standard,5.73,4.54,retailer_b,2024-05-26,meat
+chicken breast,Store Brand,standard,5.38,4.1,retailer_b,2024-06-02,meat
+chicken breast,Store Brand,standard,5.4,3.67,retailer_b,2024-06-09,meat
+chicken breast,Store Brand,standard,5.42,4.22,retailer_b,2024-06-16,meat
+chicken breast,Store Brand,standard,5.43,4.87,retailer_b,2024-06-23,meat
+chicken breast,Store Brand,standard,5.36,5.14,retailer_b,2024-06-30,meat
+chicken breast,Store Brand,standard,5.46,5.66,retailer_b,2024-07-07,meat
+chicken breast,Store Brand,standard,5.44,6.0,retailer_b,2024-07-14,meat
+chicken breast,Store Brand,standard,5.46,4.42,retailer_b,2024-07-21,meat
+chicken breast,Store Brand,standard,5.41,4.07,retailer_b,2024-07-28,meat
+chicken breast,Store Brand,standard,5.41,4.17,retailer_b,2024-08-04,meat
+chicken breast,Store Brand,standard,5.4,5.33,retailer_b,2024-08-11,meat
+chicken breast,Store Brand,standard,5.37,3.69,retailer_b,2024-08-18,meat
+chicken breast,Store Brand,standard,5.35,5.28,retailer_b,2024-08-25,meat
+chicken breast,Store Brand,standard,5.36,4.62,retailer_b,2024-09-01,meat
+chicken breast,Store Brand,standard,5.31,4.63,retailer_b,2024-09-08,meat
+chicken breast,Store Brand,standard,5.4,3.82,retailer_b,2024-09-15,meat
+chicken breast,Store Brand,standard,5.4,3.96,retailer_b,2024-09-22,meat
+chicken breast,Store Brand,standard,5.38,4.97,retailer_b,2024-09-29,meat
+chicken breast,Store Brand,standard,5.45,4.24,retailer_b,2024-10-06,meat
+chicken breast,Store Brand,standard,5.41,3.93,retailer_b,2024-10-13,meat
+chicken breast,Store Brand,standard,5.41,3.85,retailer_b,2024-10-20,meat
+chicken breast,Store Brand,standard,5.42,4.06,retailer_b,2024-10-27,meat
+chicken breast,Store Brand,standard,5.46,4.74,retailer_b,2024-11-03,meat
+chicken breast,Store Brand,standard,5.39,6.36,retailer_b,2024-11-10,meat
+chicken breast,Store Brand,standard,5.43,6.07,retailer_b,2024-11-17,meat
+chicken breast,Store Brand,standard,5.7,5.17,retailer_b,2024-11-24,meat
+chicken breast,Store Brand,standard,5.47,4.74,retailer_b,2024-12-01,meat
+chicken breast,Store Brand,standard,5.42,5.7,retailer_b,2024-12-08,meat
+chicken breast,Store Brand,standard,5.46,4.35,retailer_b,2024-12-15,meat
+chicken breast,Store Brand,standard,5.47,3.66,retailer_b,2024-12-22,meat
+chicken breast,Store Brand,standard,5.55,4.31,retailer_b,2024-12-29,meat
+ground beef,Store Brand,standard,6.97,8.26,retailer_a,2024-01-07,meat
+ground beef,Store Brand,standard,6.99,4.67,retailer_a,2024-01-14,meat
+ground beef,Store Brand,standard,7.03,5.68,retailer_a,2024-01-21,meat
+ground beef,Store Brand,standard,7.06,6.43,retailer_a,2024-01-28,meat
+ground beef,Store Brand,standard,6.97,6.4,retailer_a,2024-02-04,meat
+ground beef,Store Brand,standard,7.02,5.34,retailer_a,2024-02-11,meat
+ground beef,Store Brand,standard,7.02,7.15,retailer_a,2024-02-18,meat
+ground beef,Store Brand,standard,6.94,7.75,retailer_a,2024-02-25,meat
+ground beef,Store Brand,standard,7.0,7.23,retailer_a,2024-03-03,meat
+ground beef,Store Brand,standard,7.32,5.38,retailer_a,2024-03-10,meat
+ground beef,Store Brand,standard,7.07,5.97,retailer_a,2024-03-17,meat
+ground beef,Store Brand,standard,7.09,5.1,retailer_a,2024-03-24,meat
+ground beef,Store Brand,standard,7.07,6.88,retailer_a,2024-03-31,meat
+ground beef,Store Brand,standard,7.04,6.21,retailer_a,2024-04-07,meat
+ground beef,Store Brand,standard,7.03,5.21,retailer_a,2024-04-14,meat
+ground beef,Store Brand,standard,7.02,4.78,retailer_a,2024-04-21,meat
+ground beef,Store Brand,standard,7.06,6.38,retailer_a,2024-04-28,meat
+ground beef,Store Brand,standard,7.13,5.13,retailer_a,2024-05-05,meat
+ground beef,Store Brand,standard,7.17,5.03,retailer_a,2024-05-12,meat
+ground beef,Store Brand,standard,7.06,5.74,retailer_a,2024-05-19,meat
+ground beef,Store Brand,standard,7.08,5.38,retailer_a,2024-05-26,meat
+ground beef,Store Brand,standard,7.05,5.52,retailer_a,2024-06-02,meat
+ground beef,Store Brand,standard,7.06,8.73,retailer_a,2024-06-09,meat
+ground beef,Store Brand,standard,7.33,5.57,retailer_a,2024-06-16,meat
+ground beef,Store Brand,standard,7.02,5.23,retailer_a,2024-06-23,meat
+ground beef,Store Brand,standard,7.03,7.56,retailer_a,2024-06-30,meat
+ground beef,Store Brand,standard,7.12,8.74,retailer_a,2024-07-07,meat
+ground beef,Store Brand,standard,7.09,4.8,retailer_a,2024-07-14,meat
+ground beef,Store Brand,standard,7.1,6.65,retailer_a,2024-07-21,meat
+ground beef,Store Brand,standard,7.03,7.94,retailer_a,2024-07-28,meat
+ground beef,Store Brand,standard,7.11,6.07,retailer_a,2024-08-04,meat
+ground beef,Store Brand,standard,7.08,4.79,retailer_a,2024-08-11,meat
+ground beef,Store Brand,standard,7.28,5.96,retailer_a,2024-08-18,meat
+ground beef,Store Brand,standard,7.09,5.36,retailer_a,2024-08-25,meat
+ground beef,Store Brand,standard,7.07,6.82,retailer_a,2024-09-01,meat
+ground beef,Store Brand,standard,7.09,7.41,retailer_a,2024-09-08,meat
+ground beef,Store Brand,standard,7.01,5.7,retailer_a,2024-09-15,meat
+ground beef,Store Brand,standard,6.97,7.2,retailer_a,2024-09-22,meat
+ground beef,Store Brand,standard,7.05,5.63,retailer_a,2024-09-29,meat
+ground beef,Store Brand,standard,7.05,5.14,retailer_a,2024-10-06,meat
+ground beef,Store Brand,standard,7.05,6.28,retailer_a,2024-10-13,meat
+ground beef,Store Brand,standard,7.08,5.4,retailer_a,2024-10-20,meat
+ground beef,Store Brand,standard,7.1,6.01,retailer_a,2024-10-27,meat
+ground beef,Store Brand,standard,7.37,5.06,retailer_a,2024-11-03,meat
+ground beef,Store Brand,standard,7.1,7.48,retailer_a,2024-11-10,meat
+ground beef,Store Brand,standard,7.06,5.08,retailer_a,2024-11-17,meat
+ground beef,Store Brand,standard,7.11,6.15,retailer_a,2024-11-24,meat
+ground beef,Store Brand,standard,7.17,6.0,retailer_a,2024-12-01,meat
+ground beef,Store Brand,standard,7.14,5.36,retailer_a,2024-12-08,meat
+ground beef,Store Brand,standard,7.13,6.35,retailer_a,2024-12-15,meat
+ground beef,Store Brand,standard,7.12,7.55,retailer_a,2024-12-22,meat
+ground beef,Store Brand,standard,7.1,5.41,retailer_a,2024-12-29,meat
+ground beef,Store Brand,standard,6.79,5.03,retailer_b,2024-01-07,meat
+ground beef,Store Brand,standard,6.87,8.55,retailer_b,2024-01-14,meat
+ground beef,Store Brand,standard,7.08,6.69,retailer_b,2024-01-21,meat
+ground beef,Store Brand,standard,6.89,7.62,retailer_b,2024-01-28,meat
+ground beef,Store Brand,standard,7.15,6.76,retailer_b,2024-02-04,meat
+ground beef,Store Brand,standard,6.87,5.26,retailer_b,2024-02-11,meat
+ground beef,Store Brand,standard,6.9,6.34,retailer_b,2024-02-18,meat
+ground beef,Store Brand,standard,6.94,8.65,retailer_b,2024-02-25,meat
+ground beef,Store Brand,standard,6.84,7.91,retailer_b,2024-03-03,meat
+ground beef,Store Brand,standard,6.96,6.12,retailer_b,2024-03-10,meat
+ground beef,Store Brand,standard,6.89,5.78,retailer_b,2024-03-17,meat
+ground beef,Store Brand,standard,6.93,5.67,retailer_b,2024-03-24,meat
+ground beef,Store Brand,standard,6.97,5.06,retailer_b,2024-03-31,meat
+ground beef,Store Brand,standard,6.95,8.14,retailer_b,2024-04-07,meat
+ground beef,Store Brand,standard,6.92,5.34,retailer_b,2024-04-14,meat
+ground beef,Store Brand,standard,6.92,5.95,retailer_b,2024-04-21,meat
+ground beef,Store Brand,standard,6.89,6.24,retailer_b,2024-04-28,meat
+ground beef,Store Brand,standard,6.93,7.26,retailer_b,2024-05-05,meat
+ground beef,Store Brand,standard,7.25,4.99,retailer_b,2024-05-12,meat
+ground beef,Store Brand,standard,6.96,6.36,retailer_b,2024-05-19,meat
+ground beef,Store Brand,standard,6.98,6.42,retailer_b,2024-05-26,meat
+ground beef,Store Brand,standard,6.95,6.5,retailer_b,2024-06-02,meat
+ground beef,Store Brand,standard,7.0,6.64,retailer_b,2024-06-09,meat
+ground beef,Store Brand,standard,6.99,8.54,retailer_b,2024-06-16,meat
+ground beef,Store Brand,standard,6.93,4.75,retailer_b,2024-06-23,meat
+ground beef,Store Brand,standard,6.85,6.22,retailer_b,2024-06-30,meat
+ground beef,Store Brand,standard,6.94,6.1,retailer_b,2024-07-07,meat
+ground beef,Store Brand,standard,6.89,8.05,retailer_b,2024-07-14,meat
+ground beef,Store Brand,standard,6.91,5.27,retailer_b,2024-07-21,meat
+ground beef,Store Brand,standard,6.98,7.66,retailer_b,2024-07-28,meat
+ground beef,Store Brand,standard,6.87,5.45,retailer_b,2024-08-04,meat
+ground beef,Store Brand,standard,7.17,8.45,retailer_b,2024-08-11,meat
+ground beef,Store Brand,standard,6.9,7.09,retailer_b,2024-08-18,meat
+ground beef,Store Brand,standard,6.89,7.07,retailer_b,2024-08-25,meat
+ground beef,Store Brand,standard,6.94,5.16,retailer_b,2024-09-01,meat
+ground beef,Store Brand,standard,6.87,6.02,retailer_b,2024-09-08,meat
+ground beef,Store Brand,standard,6.8,4.76,retailer_b,2024-09-15,meat
+ground beef,Store Brand,standard,6.94,5.49,retailer_b,2024-09-22,meat
+ground beef,Store Brand,standard,6.91,8.26,retailer_b,2024-09-29,meat
+ground beef,Store Brand,standard,6.93,7.06,retailer_b,2024-10-06,meat
+ground beef,Store Brand,standard,6.94,5.8,retailer_b,2024-10-13,meat
+ground beef,Store Brand,standard,6.86,4.63,retailer_b,2024-10-20,meat
+ground beef,Store Brand,standard,6.85,7.56,retailer_b,2024-10-27,meat
+ground beef,Store Brand,standard,6.97,7.14,retailer_b,2024-11-03,meat
+ground beef,Store Brand,standard,6.94,7.88,retailer_b,2024-11-10,meat
+ground beef,Store Brand,standard,6.98,5.34,retailer_b,2024-11-17,meat
+ground beef,Store Brand,standard,6.95,8.11,retailer_b,2024-11-24,meat
+ground beef,Store Brand,standard,6.94,6.09,retailer_b,2024-12-01,meat
+ground beef,Store Brand,standard,6.98,6.41,retailer_b,2024-12-08,meat
+ground beef,Store Brand,standard,7.01,5.93,retailer_b,2024-12-15,meat
+ground beef,Store Brand,standard,6.98,6.22,retailer_b,2024-12-22,meat
+ground beef,Store Brand,standard,6.96,5.15,retailer_b,2024-12-29,meat
+cereal,Store Brand,standard,4.76,4.62,retailer_a,2024-01-07,dry_goods
+cereal,Store Brand,standard,4.77,4.1,retailer_a,2024-01-14,dry_goods
+cereal,Store Brand,standard,4.82,3.42,retailer_a,2024-01-21,dry_goods
+cereal,Store Brand,standard,4.81,4.31,retailer_a,2024-01-28,dry_goods
+cereal,Store Brand,standard,4.86,4.23,retailer_a,2024-02-04,dry_goods
+cereal,Store Brand,standard,4.83,3.83,retailer_a,2024-02-11,dry_goods
+cereal,Store Brand,standard,4.82,3.27,retailer_a,2024-02-18,dry_goods
+cereal,Store Brand,standard,4.89,4.19,retailer_a,2024-02-25,dry_goods
+cereal,Store Brand,standard,4.89,3.93,retailer_a,2024-03-03,dry_goods
+cereal,Store Brand,standard,4.83,4.48,retailer_a,2024-03-10,dry_goods
+cereal,Store Brand,standard,4.87,3.78,retailer_a,2024-03-17,dry_goods
+cereal,Store Brand,standard,4.91,4.81,retailer_a,2024-03-24,dry_goods
+cereal,Store Brand,standard,4.86,3.41,retailer_a,2024-03-31,dry_goods
+cereal,Store Brand,standard,4.86,5.36,retailer_a,2024-04-07,dry_goods
+cereal,Store Brand,standard,4.96,3.5,retailer_a,2024-04-14,dry_goods
+cereal,Store Brand,standard,4.84,4.2,retailer_a,2024-04-21,dry_goods
+cereal,Store Brand,standard,5.13,4.05,retailer_a,2024-04-28,dry_goods
+cereal,Store Brand,standard,4.9,5.35,retailer_a,2024-05-05,dry_goods
+cereal,Store Brand,standard,4.88,6.03,retailer_a,2024-05-12,dry_goods
+cereal,Store Brand,standard,4.92,4.21,retailer_a,2024-05-19,dry_goods
+cereal,Store Brand,standard,4.91,3.74,retailer_a,2024-05-26,dry_goods
+cereal,Store Brand,standard,4.89,3.49,retailer_a,2024-06-02,dry_goods
+cereal,Store Brand,standard,4.89,4.79,retailer_a,2024-06-09,dry_goods
+cereal,Store Brand,standard,4.93,3.59,retailer_a,2024-06-16,dry_goods
+cereal,Store Brand,standard,4.79,3.47,retailer_a,2024-06-23,dry_goods
+cereal,Store Brand,standard,4.85,5.26,retailer_a,2024-06-30,dry_goods
+cereal,Store Brand,standard,4.9,5.06,retailer_a,2024-07-07,dry_goods
+cereal,Store Brand,standard,4.89,4.69,retailer_a,2024-07-14,dry_goods
+cereal,Store Brand,standard,4.93,3.99,retailer_a,2024-07-21,dry_goods
+cereal,Store Brand,standard,4.85,3.49,retailer_a,2024-07-28,dry_goods
+cereal,Store Brand,standard,4.87,5.48,retailer_a,2024-08-04,dry_goods
+cereal,Store Brand,standard,4.85,4.72,retailer_a,2024-08-11,dry_goods
+cereal,Store Brand,standard,4.83,3.45,retailer_a,2024-08-18,dry_goods
+cereal,Store Brand,standard,4.86,3.51,retailer_a,2024-08-25,dry_goods
+cereal,Store Brand,standard,4.89,4.22,retailer_a,2024-09-01,dry_goods
+cereal,Store Brand,standard,4.8,5.06,retailer_a,2024-09-08,dry_goods
+cereal,Store Brand,standard,4.87,3.64,retailer_a,2024-09-15,dry_goods
+cereal,Store Brand,standard,4.86,3.84,retailer_a,2024-09-22,dry_goods
+cereal,Store Brand,standard,4.87,4.08,retailer_a,2024-09-29,dry_goods
+cereal,Store Brand,standard,4.85,4.36,retailer_a,2024-10-06,dry_goods
+cereal,Store Brand,standard,4.9,4.6,retailer_a,2024-10-13,dry_goods
+cereal,Store Brand,standard,5.11,5.82,retailer_a,2024-10-20,dry_goods
+cereal,Store Brand,standard,4.85,3.36,retailer_a,2024-10-27,dry_goods
+cereal,Store Brand,standard,4.87,3.48,retailer_a,2024-11-03,dry_goods
+cereal,Store Brand,standard,4.9,3.59,retailer_a,2024-11-10,dry_goods
+cereal,Store Brand,standard,4.88,3.31,retailer_a,2024-11-17,dry_goods
+cereal,Store Brand,standard,4.86,4.87,retailer_a,2024-11-24,dry_goods
+cereal,Store Brand,standard,4.95,5.63,retailer_a,2024-12-01,dry_goods
+cereal,Store Brand,standard,4.93,5.09,retailer_a,2024-12-08,dry_goods
+cereal,Store Brand,standard,4.99,4.42,retailer_a,2024-12-15,dry_goods
+cereal,Store Brand,standard,4.96,4.91,retailer_a,2024-12-22,dry_goods
+cereal,Store Brand,standard,4.87,5.84,retailer_a,2024-12-29,dry_goods
+cereal,Store Brand,standard,4.68,5.03,retailer_b,2024-01-07,dry_goods
+cereal,Store Brand,standard,4.72,4.88,retailer_b,2024-01-14,dry_goods
+cereal,Store Brand,standard,4.66,3.37,retailer_b,2024-01-21,dry_goods
+cereal,Store Brand,standard,4.71,5.35,retailer_b,2024-01-28,dry_goods
+cereal,Store Brand,standard,4.71,3.92,retailer_b,2024-02-04,dry_goods
+cereal,Store Brand,standard,4.7,4.27,retailer_b,2024-02-11,dry_goods
+cereal,Store Brand,standard,4.66,3.82,retailer_b,2024-02-18,dry_goods
+cereal,Store Brand,standard,4.63,4.17,retailer_b,2024-02-25,dry_goods
+cereal,Store Brand,standard,4.77,3.69,retailer_b,2024-03-03,dry_goods
+cereal,Store Brand,standard,4.76,4.11,retailer_b,2024-03-10,dry_goods
+cereal,Store Brand,standard,4.71,3.75,retailer_b,2024-03-17,dry_goods
+cereal,Store Brand,standard,4.94,4.05,retailer_b,2024-03-24,dry_goods
+cereal,Store Brand,standard,4.73,5.57,retailer_b,2024-03-31,dry_goods
+cereal,Store Brand,standard,4.8,4.56,retailer_b,2024-04-07,dry_goods
+cereal,Store Brand,standard,4.71,4.74,retailer_b,2024-04-14,dry_goods
+cereal,Store Brand,standard,4.98,4.83,retailer_b,2024-04-21,dry_goods
+cereal,Store Brand,standard,4.68,4.7,retailer_b,2024-04-28,dry_goods
+cereal,Store Brand,standard,4.73,4.07,retailer_b,2024-05-05,dry_goods
+cereal,Store Brand,standard,4.72,3.93,retailer_b,2024-05-12,dry_goods
+cereal,Store Brand,standard,4.7,4.67,retailer_b,2024-05-19,dry_goods
+cereal,Store Brand,standard,4.73,3.84,retailer_b,2024-05-26,dry_goods
+cereal,Store Brand,standard,4.76,4.57,retailer_b,2024-06-02,dry_goods
+cereal,Store Brand,standard,4.77,3.69,retailer_b,2024-06-09,dry_goods
+cereal,Store Brand,standard,4.98,5.58,retailer_b,2024-06-16,dry_goods
+cereal,Store Brand,standard,4.7,4.32,retailer_b,2024-06-23,dry_goods
+cereal,Store Brand,standard,4.66,3.59,retailer_b,2024-06-30,dry_goods
+cereal,Store Brand,standard,4.65,3.17,retailer_b,2024-07-07,dry_goods
+cereal,Store Brand,standard,4.75,5.93,retailer_b,2024-07-14,dry_goods
+cereal,Store Brand,standard,4.69,5.57,retailer_b,2024-07-21,dry_goods
+cereal,Store Brand,standard,4.72,3.69,retailer_b,2024-07-28,dry_goods
+cereal,Store Brand,standard,4.7,4.44,retailer_b,2024-08-04,dry_goods
+cereal,Store Brand,standard,4.67,4.27,retailer_b,2024-08-11,dry_goods
+cereal,Store Brand,standard,4.7,4.48,retailer_b,2024-08-18,dry_goods
+cereal,Store Brand,standard,4.7,3.71,retailer_b,2024-08-25,dry_goods
+cereal,Store Brand,standard,4.66,5.77,retailer_b,2024-09-01,dry_goods
+cereal,Store Brand,standard,4.76,3.31,retailer_b,2024-09-08,dry_goods
+cereal,Store Brand,standard,4.74,5.36,retailer_b,2024-09-15,dry_goods
+cereal,Store Brand,standard,4.71,5.56,retailer_b,2024-09-22,dry_goods
+cereal,Store Brand,standard,4.66,4.25,retailer_b,2024-09-29,dry_goods
+cereal,Store Brand,standard,4.71,4.13,retailer_b,2024-10-06,dry_goods
+cereal,Store Brand,standard,4.69,3.94,retailer_b,2024-10-13,dry_goods
+cereal,Store Brand,standard,4.72,3.6,retailer_b,2024-10-20,dry_goods
+cereal,Store Brand,standard,4.76,4.32,retailer_b,2024-10-27,dry_goods
+cereal,Store Brand,standard,4.74,4.77,retailer_b,2024-11-03,dry_goods
+cereal,Store Brand,standard,4.77,3.51,retailer_b,2024-11-10,dry_goods
+cereal,Store Brand,standard,4.71,3.36,retailer_b,2024-11-17,dry_goods
+cereal,Store Brand,standard,4.74,3.93,retailer_b,2024-11-24,dry_goods
+cereal,Store Brand,standard,4.79,3.92,retailer_b,2024-12-01,dry_goods
+cereal,Store Brand,standard,4.8,5.24,retailer_b,2024-12-08,dry_goods
+cereal,Store Brand,standard,4.81,5.35,retailer_b,2024-12-15,dry_goods
+cereal,Store Brand,standard,4.77,5.83,retailer_b,2024-12-22,dry_goods
+cereal,Store Brand,standard,4.82,3.87,retailer_b,2024-12-29,dry_goods
+pasta,Store Brand,standard,1.47,1.44,retailer_a,2024-01-07,dry_goods
+pasta,Store Brand,standard,1.49,1.22,retailer_a,2024-01-14,dry_goods
+pasta,Store Brand,standard,1.71,1.53,retailer_a,2024-01-21,dry_goods
+pasta,Store Brand,standard,1.49,1.66,retailer_a,2024-01-28,dry_goods
+pasta,Store Brand,standard,1.51,1.02,retailer_a,2024-02-04,dry_goods
+pasta,Store Brand,standard,1.53,1.85,retailer_a,2024-02-11,dry_goods
+pasta,Store Brand,standard,1.54,1.89,retailer_a,2024-02-18,dry_goods
+pasta,Store Brand,standard,1.53,1.36,retailer_a,2024-02-25,dry_goods
+pasta,Store Brand,standard,1.58,1.08,retailer_a,2024-03-03,dry_goods
+pasta,Store Brand,standard,1.55,1.09,retailer_a,2024-03-10,dry_goods
+pasta,Store Brand,standard,1.86,1.86,retailer_a,2024-03-17,dry_goods
+pasta,Store Brand,standard,1.84,1.72,retailer_a,2024-03-24,dry_goods
+pasta,Store Brand,standard,1.51,1.66,retailer_a,2024-03-31,dry_goods
+pasta,Store Brand,standard,1.53,1.3,retailer_a,2024-04-07,dry_goods
+pasta,Store Brand,standard,1.61,1.59,retailer_a,2024-04-14,dry_goods
+pasta,Store Brand,standard,1.6,1.71,retailer_a,2024-04-21,dry_goods
+pasta,Store Brand,standard,1.58,1.07,retailer_a,2024-04-28,dry_goods
+pasta,Store Brand,standard,1.57,1.51,retailer_a,2024-05-05,dry_goods
+pasta,Store Brand,standard,1.54,1.24,retailer_a,2024-05-12,dry_goods
+pasta,Store Brand,standard,1.59,1.47,retailer_a,2024-05-19,dry_goods
+pasta,Store Brand,standard,1.63,1.73,retailer_a,2024-05-26,dry_goods
+pasta,Store Brand,standard,1.66,2.01,retailer_a,2024-06-02,dry_goods
+pasta,Store Brand,standard,1.69,1.15,retailer_a,2024-06-09,dry_goods
+pasta,Store Brand,standard,1.52,1.16,retailer_a,2024-06-16,dry_goods
+pasta,Store Brand,standard,1.62,1.2,retailer_a,2024-06-23,dry_goods
+pasta,Store Brand,standard,1.57,1.16,retailer_a,2024-06-30,dry_goods
+pasta,Store Brand,standard,1.59,1.76,retailer_a,2024-07-07,dry_goods
+pasta,Store Brand,standard,1.55,1.04,retailer_a,2024-07-14,dry_goods
+pasta,Store Brand,standard,1.61,1.51,retailer_a,2024-07-21,dry_goods
+pasta,Store Brand,standard,1.56,1.66,retailer_a,2024-07-28,dry_goods
+pasta,Store Brand,standard,1.53,1.34,retailer_a,2024-08-04,dry_goods
+pasta,Store Brand,standard,1.61,1.15,retailer_a,2024-08-11,dry_goods
+pasta,Store Brand,standard,1.55,1.16,retailer_a,2024-08-18,dry_goods
+pasta,Store Brand,standard,1.56,1.06,retailer_a,2024-08-25,dry_goods
+pasta,Store Brand,standard,1.54,1.39,retailer_a,2024-09-01,dry_goods
+pasta,Store Brand,standard,1.54,1.08,retailer_a,2024-09-08,dry_goods
+pasta,Store Brand,standard,1.57,1.08,retailer_a,2024-09-15,dry_goods
+pasta,Store Brand,standard,1.43,1.26,retailer_a,2024-09-22,dry_goods
+pasta,Store Brand,standard,1.6,1.79,retailer_a,2024-09-29,dry_goods
+pasta,Store Brand,standard,1.59,1.51,retailer_a,2024-10-06,dry_goods
+pasta,Store Brand,standard,1.54,1.05,retailer_a,2024-10-13,dry_goods
+pasta,Store Brand,standard,1.6,1.07,retailer_a,2024-10-20,dry_goods
+pasta,Store Brand,standard,1.61,1.99,retailer_a,2024-10-27,dry_goods
+pasta,Store Brand,standard,1.6,1.16,retailer_a,2024-11-03,dry_goods
+pasta,Store Brand,standard,1.56,1.17,retailer_a,2024-11-10,dry_goods
+pasta,Store Brand,standard,1.6,1.2,retailer_a,2024-11-17,dry_goods
+pasta,Store Brand,standard,1.61,1.41,retailer_a,2024-11-24,dry_goods
+pasta,Store Brand,standard,1.65,1.52,retailer_a,2024-12-01,dry_goods
+pasta,Store Brand,standard,1.58,1.8,retailer_a,2024-12-08,dry_goods
+pasta,Store Brand,standard,1.61,1.1,retailer_a,2024-12-15,dry_goods
+pasta,Store Brand,standard,1.55,1.35,retailer_a,2024-12-22,dry_goods
+pasta,Store Brand,standard,1.65,1.27,retailer_a,2024-12-29,dry_goods
+pasta,Store Brand,standard,1.28,1.28,retailer_b,2024-01-07,dry_goods
+pasta,Store Brand,standard,1.32,0.91,retailer_b,2024-01-14,dry_goods
+pasta,Store Brand,standard,1.39,1.23,retailer_b,2024-01-21,dry_goods
+pasta,Store Brand,standard,1.36,1.09,retailer_b,2024-01-28,dry_goods
+pasta,Store Brand,standard,1.38,1.1,retailer_b,2024-02-04,dry_goods
+pasta,Store Brand,standard,1.39,0.98,retailer_b,2024-02-11,dry_goods
+pasta,Store Brand,standard,1.27,1.03,retailer_b,2024-02-18,dry_goods
+pasta,Store Brand,standard,1.41,1.1,retailer_b,2024-02-25,dry_goods
+pasta,Store Brand,standard,1.44,1.06,retailer_b,2024-03-03,dry_goods
+pasta,Store Brand,standard,1.37,1.18,retailer_b,2024-03-10,dry_goods
+pasta,Store Brand,standard,1.43,1.25,retailer_b,2024-03-17,dry_goods
+pasta,Store Brand,standard,1.4,1.57,retailer_b,2024-03-24,dry_goods
+pasta,Store Brand,standard,1.4,1.37,retailer_b,2024-03-31,dry_goods
+pasta,Store Brand,standard,1.44,1.24,retailer_b,2024-04-07,dry_goods
+pasta,Store Brand,standard,1.42,1.77,retailer_b,2024-04-14,dry_goods
+pasta,Store Brand,standard,1.44,1.09,retailer_b,2024-04-21,dry_goods
+pasta,Store Brand,standard,1.41,1.43,retailer_b,2024-04-28,dry_goods
+pasta,Store Brand,standard,1.42,1.39,retailer_b,2024-05-05,dry_goods
+pasta,Store Brand,standard,1.45,1.01,retailer_b,2024-05-12,dry_goods
+pasta,Store Brand,standard,1.44,0.98,retailer_b,2024-05-19,dry_goods
+pasta,Store Brand,standard,1.44,1.34,retailer_b,2024-05-26,dry_goods
+pasta,Store Brand,standard,1.41,1.09,retailer_b,2024-06-02,dry_goods
+pasta,Store Brand,standard,1.72,1.29,retailer_b,2024-06-09,dry_goods
+pasta,Store Brand,standard,1.73,1.34,retailer_b,2024-06-16,dry_goods
+pasta,Store Brand,standard,1.4,1.12,retailer_b,2024-06-23,dry_goods
+pasta,Store Brand,standard,1.41,1.34,retailer_b,2024-06-30,dry_goods
+pasta,Store Brand,standard,1.42,1.27,retailer_b,2024-07-07,dry_goods
+pasta,Store Brand,standard,1.44,1.36,retailer_b,2024-07-14,dry_goods
+pasta,Store Brand,standard,1.39,1.27,retailer_b,2024-07-21,dry_goods
+pasta,Store Brand,standard,1.4,1.0,retailer_b,2024-07-28,dry_goods
+pasta,Store Brand,standard,1.43,1.01,retailer_b,2024-08-04,dry_goods
+pasta,Store Brand,standard,1.36,1.07,retailer_b,2024-08-11,dry_goods
+pasta,Store Brand,standard,1.34,1.07,retailer_b,2024-08-18,dry_goods
+pasta,Store Brand,standard,1.43,1.4,retailer_b,2024-08-25,dry_goods
+pasta,Store Brand,standard,1.35,1.44,retailer_b,2024-09-01,dry_goods
+pasta,Store Brand,standard,1.47,1.47,retailer_b,2024-09-08,dry_goods
+pasta,Store Brand,standard,1.38,1.19,retailer_b,2024-09-15,dry_goods
+pasta,Store Brand,standard,1.4,1.01,retailer_b,2024-09-22,dry_goods
+pasta,Store Brand,standard,1.4,1.29,retailer_b,2024-09-29,dry_goods
+pasta,Store Brand,standard,1.37,1.13,retailer_b,2024-10-06,dry_goods
+pasta,Store Brand,standard,1.66,1.43,retailer_b,2024-10-13,dry_goods
+pasta,Store Brand,standard,1.4,1.37,retailer_b,2024-10-20,dry_goods
+pasta,Store Brand,standard,1.45,0.98,retailer_b,2024-10-27,dry_goods
+pasta,Store Brand,standard,1.45,1.79,retailer_b,2024-11-03,dry_goods
+pasta,Store Brand,standard,1.46,1.48,retailer_b,2024-11-10,dry_goods
+pasta,Store Brand,standard,1.46,1.45,retailer_b,2024-11-17,dry_goods
+pasta,Store Brand,standard,1.45,1.37,retailer_b,2024-11-24,dry_goods
+pasta,Store Brand,standard,1.51,1.5,retailer_b,2024-12-01,dry_goods
+pasta,Store Brand,standard,1.47,1.8,retailer_b,2024-12-08,dry_goods
+pasta,Store Brand,standard,1.47,1.09,retailer_b,2024-12-15,dry_goods
+pasta,Store Brand,standard,1.47,1.45,retailer_b,2024-12-22,dry_goods
+pasta,Store Brand,standard,1.55,1.61,retailer_b,2024-12-29,dry_goods
+rice,Store Brand,standard,2.29,2.02,retailer_a,2024-01-07,dry_goods
+rice,Store Brand,standard,2.23,1.52,retailer_a,2024-01-14,dry_goods
+rice,Store Brand,standard,2.56,3.0,retailer_a,2024-01-21,dry_goods
+rice,Store Brand,standard,2.33,2.43,retailer_a,2024-01-28,dry_goods
+rice,Store Brand,standard,2.31,1.72,retailer_a,2024-02-04,dry_goods
+rice,Store Brand,standard,2.32,2.57,retailer_a,2024-02-11,dry_goods
+rice,Store Brand,standard,2.36,1.86,retailer_a,2024-02-18,dry_goods
+rice,Store Brand,standard,2.39,2.29,retailer_a,2024-02-25,dry_goods
+rice,Store Brand,standard,2.35,1.65,retailer_a,2024-03-03,dry_goods
+rice,Store Brand,standard,2.38,2.82,retailer_a,2024-03-10,dry_goods
+rice,Store Brand,standard,2.33,1.58,retailer_a,2024-03-17,dry_goods
+rice,Store Brand,standard,2.46,2.54,retailer_a,2024-03-24,dry_goods
+rice,Store Brand,standard,2.46,2.48,retailer_a,2024-03-31,dry_goods
+rice,Store Brand,standard,2.38,2.12,retailer_a,2024-04-07,dry_goods
+rice,Store Brand,standard,2.29,2.5,retailer_a,2024-04-14,dry_goods
+rice,Store Brand,standard,2.44,2.58,retailer_a,2024-04-21,dry_goods
+rice,Store Brand,standard,2.62,2.79,retailer_a,2024-04-28,dry_goods
+rice,Store Brand,standard,2.66,1.78,retailer_a,2024-05-05,dry_goods
+rice,Store Brand,standard,2.32,1.91,retailer_a,2024-05-12,dry_goods
+rice,Store Brand,standard,2.4,1.94,retailer_a,2024-05-19,dry_goods
+rice,Store Brand,standard,2.4,2.63,retailer_a,2024-05-26,dry_goods
+rice,Store Brand,standard,2.38,1.83,retailer_a,2024-06-02,dry_goods
+rice,Store Brand,standard,2.41,2.64,retailer_a,2024-06-09,dry_goods
+rice,Store Brand,standard,2.32,1.73,retailer_a,2024-06-16,dry_goods
+rice,Store Brand,standard,2.36,2.25,retailer_a,2024-06-23,dry_goods
+rice,Store Brand,standard,2.37,2.47,retailer_a,2024-06-30,dry_goods
+rice,Store Brand,standard,2.32,1.66,retailer_a,2024-07-07,dry_goods
+rice,Store Brand,standard,2.39,2.76,retailer_a,2024-07-14,dry_goods
+rice,Store Brand,standard,2.34,1.85,retailer_a,2024-07-21,dry_goods
+rice,Store Brand,standard,2.36,2.35,retailer_a,2024-07-28,dry_goods
+rice,Store Brand,standard,2.64,3.18,retailer_a,2024-08-04,dry_goods
+rice,Store Brand,standard,2.35,2.22,retailer_a,2024-08-11,dry_goods
+rice,Store Brand,standard,2.41,1.64,retailer_a,2024-08-18,dry_goods
+rice,Store Brand,standard,2.33,2.22,retailer_a,2024-08-25,dry_goods
+rice,Store Brand,standard,2.32,2.21,retailer_a,2024-09-01,dry_goods
+rice,Store Brand,standard,2.38,2.46,retailer_a,2024-09-08,dry_goods
+rice,Store Brand,standard,2.35,2.84,retailer_a,2024-09-15,dry_goods
+rice,Store Brand,standard,2.31,2.5,retailer_a,2024-09-22,dry_goods
+rice,Store Brand,standard,2.59,2.15,retailer_a,2024-09-29,dry_goods
+rice,Store Brand,standard,2.38,1.97,retailer_a,2024-10-06,dry_goods
+rice,Store Brand,standard,2.43,2.32,retailer_a,2024-10-13,dry_goods
+rice,Store Brand,standard,2.37,1.62,retailer_a,2024-10-20,dry_goods
+rice,Store Brand,standard,2.36,2.08,retailer_a,2024-10-27,dry_goods
+rice,Store Brand,standard,2.41,2.55,retailer_a,2024-11-03,dry_goods
+rice,Store Brand,standard,2.33,1.67,retailer_a,2024-11-10,dry_goods
+rice,Store Brand,standard,2.4,2.82,retailer_a,2024-11-17,dry_goods
+rice,Store Brand,standard,2.29,1.65,retailer_a,2024-11-24,dry_goods
+rice,Store Brand,standard,2.41,1.87,retailer_a,2024-12-01,dry_goods
+rice,Store Brand,standard,2.44,1.73,retailer_a,2024-12-08,dry_goods
+rice,Store Brand,standard,2.47,2.48,retailer_a,2024-12-15,dry_goods
+rice,Store Brand,standard,2.41,1.8,retailer_a,2024-12-22,dry_goods
+rice,Store Brand,standard,2.43,2.23,retailer_a,2024-12-29,dry_goods
+rice,Store Brand,standard,2.36,2.46,retailer_b,2024-01-07,dry_goods
+rice,Store Brand,standard,2.15,2.12,retailer_b,2024-01-14,dry_goods
+rice,Store Brand,standard,2.19,1.57,retailer_b,2024-01-21,dry_goods
+rice,Store Brand,standard,2.12,2.09,retailer_b,2024-01-28,dry_goods
+rice,Store Brand,standard,2.22,2.39,retailer_b,2024-02-04,dry_goods
+rice,Store Brand,standard,2.14,1.5,retailer_b,2024-02-11,dry_goods
+rice,Store Brand,standard,2.17,1.72,retailer_b,2024-02-18,dry_goods
+rice,Store Brand,standard,2.26,1.91,retailer_b,2024-02-25,dry_goods
+rice,Store Brand,standard,2.17,1.8,retailer_b,2024-03-03,dry_goods
+rice,Store Brand,standard,2.48,2.99,retailer_b,2024-03-10,dry_goods
+rice,Store Brand,standard,2.24,1.72,retailer_b,2024-03-17,dry_goods
+rice,Store Brand,standard,2.16,2.48,retailer_b,2024-03-24,dry_goods
+rice,Store Brand,standard,2.31,1.59,retailer_b,2024-03-31,dry_goods
+rice,Store Brand,standard,2.35,1.82,retailer_b,2024-04-07,dry_goods
+rice,Store Brand,standard,2.22,1.73,retailer_b,2024-04-14,dry_goods
+rice,Store Brand,standard,2.31,1.65,retailer_b,2024-04-21,dry_goods
+rice,Store Brand,standard,2.27,2.18,retailer_b,2024-04-28,dry_goods
+rice,Store Brand,standard,2.21,1.49,retailer_b,2024-05-05,dry_goods
+rice,Store Brand,standard,2.25,1.89,retailer_b,2024-05-12,dry_goods
+rice,Store Brand,standard,2.27,1.98,retailer_b,2024-05-19,dry_goods
+rice,Store Brand,standard,2.19,1.67,retailer_b,2024-05-26,dry_goods
+rice,Store Brand,standard,2.22,2.72,retailer_b,2024-06-02,dry_goods
+rice,Store Brand,standard,2.17,1.58,retailer_b,2024-06-09,dry_goods
+rice,Store Brand,standard,2.21,1.5,retailer_b,2024-06-16,dry_goods
+rice,Store Brand,standard,2.22,1.58,retailer_b,2024-06-23,dry_goods
+rice,Store Brand,standard,2.19,1.61,retailer_b,2024-06-30,dry_goods
+rice,Store Brand,standard,2.13,1.52,retailer_b,2024-07-07,dry_goods
+rice,Store Brand,standard,2.26,2.22,retailer_b,2024-07-14,dry_goods
+rice,Store Brand,standard,2.24,1.65,retailer_b,2024-07-21,dry_goods
+rice,Store Brand,standard,2.19,1.77,retailer_b,2024-07-28,dry_goods
+rice,Store Brand,standard,2.26,2.8,retailer_b,2024-08-04,dry_goods
+rice,Store Brand,standard,2.22,2.65,retailer_b,2024-08-11,dry_goods
+rice,Store Brand,standard,2.13,2.03,retailer_b,2024-08-18,dry_goods
+rice,Store Brand,standard,2.22,2.15,retailer_b,2024-08-25,dry_goods
+rice,Store Brand,standard,2.18,1.62,retailer_b,2024-09-01,dry_goods
+rice,Store Brand,standard,2.26,2.05,retailer_b,2024-09-08,dry_goods
+rice,Store Brand,standard,2.16,2.03,retailer_b,2024-09-15,dry_goods
+rice,Store Brand,standard,2.25,1.8,retailer_b,2024-09-22,dry_goods
+rice,Store Brand,standard,2.25,2.06,retailer_b,2024-09-29,dry_goods
+rice,Store Brand,standard,2.26,2.59,retailer_b,2024-10-06,dry_goods
+rice,Store Brand,standard,2.17,1.46,retailer_b,2024-10-13,dry_goods
+rice,Store Brand,standard,2.18,1.87,retailer_b,2024-10-20,dry_goods
+rice,Store Brand,standard,2.21,1.71,retailer_b,2024-10-27,dry_goods
+rice,Store Brand,standard,2.19,2.1,retailer_b,2024-11-03,dry_goods
+rice,Store Brand,standard,2.17,1.91,retailer_b,2024-11-10,dry_goods
+rice,Store Brand,standard,2.21,2.21,retailer_b,2024-11-17,dry_goods
+rice,Store Brand,standard,2.25,2.64,retailer_b,2024-11-24,dry_goods
+rice,Store Brand,standard,2.26,1.54,retailer_b,2024-12-01,dry_goods
+rice,Store Brand,standard,2.24,1.81,retailer_b,2024-12-08,dry_goods
+rice,Store Brand,standard,2.26,2.29,retailer_b,2024-12-15,dry_goods
+rice,Store Brand,standard,2.31,1.88,retailer_b,2024-12-22,dry_goods
+rice,Store Brand,standard,2.24,2.26,retailer_b,2024-12-29,dry_goods
+canned vegetables,Store Brand,standard,1.03,1.18,retailer_a,2024-01-07,canned_goods
+canned vegetables,Store Brand,standard,1.01,0.69,retailer_a,2024-01-14,canned_goods
+canned vegetables,Store Brand,standard,1.03,0.85,retailer_a,2024-01-21,canned_goods
+canned vegetables,Store Brand,standard,1.03,0.81,retailer_a,2024-01-28,canned_goods
+canned vegetables,Store Brand,standard,1.02,1.04,retailer_a,2024-02-04,canned_goods
+canned vegetables,Store Brand,standard,1.03,0.7,retailer_a,2024-02-11,canned_goods
+canned vegetables,Store Brand,standard,1.09,0.86,retailer_a,2024-02-18,canned_goods
+canned vegetables,Store Brand,standard,1.29,1.48,retailer_a,2024-02-25,canned_goods
+canned vegetables,Store Brand,standard,1.05,0.79,retailer_a,2024-03-03,canned_goods
+canned vegetables,Store Brand,standard,1.05,0.95,retailer_a,2024-03-10,canned_goods
+canned vegetables,Store Brand,standard,1.05,1.3,retailer_a,2024-03-17,canned_goods
+canned vegetables,Store Brand,standard,1.01,0.82,retailer_a,2024-03-24,canned_goods
+canned vegetables,Store Brand,standard,1.02,1.18,retailer_a,2024-03-31,canned_goods
+canned vegetables,Store Brand,standard,1.11,0.78,retailer_a,2024-04-07,canned_goods
+canned vegetables,Store Brand,standard,1.05,1.08,retailer_a,2024-04-14,canned_goods
+canned vegetables,Store Brand,standard,1.06,0.95,retailer_a,2024-04-21,canned_goods
+canned vegetables,Store Brand,standard,1.11,1.3,retailer_a,2024-04-28,canned_goods
+canned vegetables,Store Brand,standard,1.39,1.0,retailer_a,2024-05-05,canned_goods
+canned vegetables,Store Brand,standard,1.11,0.94,retailer_a,2024-05-12,canned_goods
+canned vegetables,Store Brand,standard,1.1,0.89,retailer_a,2024-05-19,canned_goods
+canned vegetables,Store Brand,standard,1.12,1.32,retailer_a,2024-05-26,canned_goods
+canned vegetables,Store Brand,standard,1.12,0.78,retailer_a,2024-06-02,canned_goods
+canned vegetables,Store Brand,standard,1.12,1.06,retailer_a,2024-06-09,canned_goods
+canned vegetables,Store Brand,standard,1.17,0.92,retailer_a,2024-06-16,canned_goods
+canned vegetables,Store Brand,standard,1.06,1.09,retailer_a,2024-06-23,canned_goods
+canned vegetables,Store Brand,standard,1.13,1.03,retailer_a,2024-06-30,canned_goods
+canned vegetables,Store Brand,standard,1.15,1.36,retailer_a,2024-07-07,canned_goods
+canned vegetables,Store Brand,standard,1.03,1.03,retailer_a,2024-07-14,canned_goods
+canned vegetables,Store Brand,standard,1.05,0.91,retailer_a,2024-07-21,canned_goods
+canned vegetables,Store Brand,standard,1.06,0.93,retailer_a,2024-07-28,canned_goods
+canned vegetables,Store Brand,standard,1.04,1.06,retailer_a,2024-08-04,canned_goods
+canned vegetables,Store Brand,standard,1.11,1.22,retailer_a,2024-08-11,canned_goods
+canned vegetables,Store Brand,standard,1.08,0.84,retailer_a,2024-08-18,canned_goods
+canned vegetables,Store Brand,standard,1.07,1.07,retailer_a,2024-08-25,canned_goods
+canned vegetables,Store Brand,standard,1.01,0.86,retailer_a,2024-09-01,canned_goods
+canned vegetables,Store Brand,standard,1.02,0.97,retailer_a,2024-09-08,canned_goods
+canned vegetables,Store Brand,standard,1.07,0.74,retailer_a,2024-09-15,canned_goods
+canned vegetables,Store Brand,standard,1.32,1.28,retailer_a,2024-09-22,canned_goods
+canned vegetables,Store Brand,standard,1.06,0.75,retailer_a,2024-09-29,canned_goods
+canned vegetables,Store Brand,standard,0.97,0.9,retailer_a,2024-10-06,canned_goods
+canned vegetables,Store Brand,standard,1.07,0.76,retailer_a,2024-10-13,canned_goods
+canned vegetables,Store Brand,standard,1.18,0.85,retailer_a,2024-10-20,canned_goods
+canned vegetables,Store Brand,standard,1.09,0.89,retailer_a,2024-10-27,canned_goods
+canned vegetables,Store Brand,standard,1.1,0.87,retailer_a,2024-11-03,canned_goods
+canned vegetables,Store Brand,standard,1.1,1.25,retailer_a,2024-11-10,canned_goods
+canned vegetables,Store Brand,standard,1.05,1.31,retailer_a,2024-11-17,canned_goods
+canned vegetables,Store Brand,standard,1.13,1.24,retailer_a,2024-11-24,canned_goods
+canned vegetables,Store Brand,standard,1.14,1.4,retailer_a,2024-12-01,canned_goods
+canned vegetables,Store Brand,standard,1.08,1.13,retailer_a,2024-12-08,canned_goods
+canned vegetables,Store Brand,standard,1.07,0.87,retailer_a,2024-12-15,canned_goods
+canned vegetables,Store Brand,standard,1.07,0.73,retailer_a,2024-12-22,canned_goods
+canned vegetables,Store Brand,standard,1.11,0.93,retailer_a,2024-12-29,canned_goods
+canned vegetables,Store Brand,standard,0.78,0.61,retailer_b,2024-01-07,canned_goods
+canned vegetables,Store Brand,standard,0.77,0.84,retailer_b,2024-01-14,canned_goods
+canned vegetables,Store Brand,standard,0.75,0.6,retailer_b,2024-01-21,canned_goods
+canned vegetables,Store Brand,standard,0.87,0.99,retailer_b,2024-01-28,canned_goods
+canned vegetables,Store Brand,standard,0.84,0.93,retailer_b,2024-02-04,canned_goods
+canned vegetables,Store Brand,standard,0.89,0.94,retailer_b,2024-02-11,canned_goods
+canned vegetables,Store Brand,standard,0.93,0.8,retailer_b,2024-02-18,canned_goods
+canned vegetables,Store Brand,standard,0.89,1.1,retailer_b,2024-02-25,canned_goods
+canned vegetables,Store Brand,standard,1.01,0.79,retailer_b,2024-03-03,canned_goods
+canned vegetables,Store Brand,standard,0.87,1.08,retailer_b,2024-03-10,canned_goods
+canned vegetables,Store Brand,standard,0.93,0.68,retailer_b,2024-03-17,canned_goods
+canned vegetables,Store Brand,standard,0.99,0.87,retailer_b,2024-03-24,canned_goods
+canned vegetables,Store Brand,standard,0.97,1.04,retailer_b,2024-03-31,canned_goods
+canned vegetables,Store Brand,standard,0.9,0.63,retailer_b,2024-04-07,canned_goods
+canned vegetables,Store Brand,standard,0.9,0.66,retailer_b,2024-04-14,canned_goods
+canned vegetables,Store Brand,standard,0.93,0.99,retailer_b,2024-04-21,canned_goods
+canned vegetables,Store Brand,standard,1.22,1.44,retailer_b,2024-04-28,canned_goods
+canned vegetables,Store Brand,standard,0.85,1.0,retailer_b,2024-05-05,canned_goods
+canned vegetables,Store Brand,standard,0.98,0.65,retailer_b,2024-05-12,canned_goods
+canned vegetables,Store Brand,standard,0.91,0.89,retailer_b,2024-05-19,canned_goods
+canned vegetables,Store Brand,standard,0.91,1.07,retailer_b,2024-05-26,canned_goods
+canned vegetables,Store Brand,standard,0.88,0.78,retailer_b,2024-06-02,canned_goods
+canned vegetables,Store Brand,standard,0.97,1.2,retailer_b,2024-06-09,canned_goods
+canned vegetables,Store Brand,standard,0.98,0.78,retailer_b,2024-06-16,canned_goods
+canned vegetables,Store Brand,standard,0.92,0.69,retailer_b,2024-06-23,canned_goods
+canned vegetables,Store Brand,standard,0.92,1.09,retailer_b,2024-06-30,canned_goods
+canned vegetables,Store Brand,standard,0.94,0.71,retailer_b,2024-07-07,canned_goods
+canned vegetables,Store Brand,standard,0.97,0.83,retailer_b,2024-07-14,canned_goods
+canned vegetables,Store Brand,standard,0.93,0.7,retailer_b,2024-07-21,canned_goods
+canned vegetables,Store Brand,standard,0.87,0.93,retailer_b,2024-07-28,canned_goods
+canned vegetables,Store Brand,standard,0.92,0.69,retailer_b,2024-08-04,canned_goods
+canned vegetables,Store Brand,standard,0.92,0.73,retailer_b,2024-08-11,canned_goods
+canned vegetables,Store Brand,standard,0.91,1.0,retailer_b,2024-08-18,canned_goods
+canned vegetables,Store Brand,standard,0.94,0.72,retailer_b,2024-08-25,canned_goods
+canned vegetables,Store Brand,standard,0.87,0.9,retailer_b,2024-09-01,canned_goods
+canned vegetables,Store Brand,standard,0.87,0.79,retailer_b,2024-09-08,canned_goods
+canned vegetables,Store Brand,standard,0.9,1.05,retailer_b,2024-09-15,canned_goods
+canned vegetables,Store Brand,standard,0.94,0.88,retailer_b,2024-09-22,canned_goods
+canned vegetables,Store Brand,standard,0.92,0.93,retailer_b,2024-09-29,canned_goods
+canned vegetables,Store Brand,standard,0.95,0.96,retailer_b,2024-10-06,canned_goods
+canned vegetables,Store Brand,standard,0.92,0.93,retailer_b,2024-10-13,canned_goods
+canned vegetables,Store Brand,standard,0.94,0.73,retailer_b,2024-10-20,canned_goods
+canned vegetables,Store Brand,standard,0.94,0.74,retailer_b,2024-10-27,canned_goods
+canned vegetables,Store Brand,standard,0.87,0.65,retailer_b,2024-11-03,canned_goods
+canned vegetables,Store Brand,standard,0.9,0.7,retailer_b,2024-11-10,canned_goods
+canned vegetables,Store Brand,standard,0.96,0.87,retailer_b,2024-11-17,canned_goods
+canned vegetables,Store Brand,standard,0.96,0.76,retailer_b,2024-11-24,canned_goods
+canned vegetables,Store Brand,standard,0.89,0.62,retailer_b,2024-12-01,canned_goods
+canned vegetables,Store Brand,standard,0.95,0.63,retailer_b,2024-12-08,canned_goods
+canned vegetables,Store Brand,standard,1.0,0.72,retailer_b,2024-12-15,canned_goods
+canned vegetables,Store Brand,standard,1.0,1.15,retailer_b,2024-12-22,canned_goods
+canned vegetables,Store Brand,standard,1.18,1.15,retailer_b,2024-12-29,canned_goods

@@ -1,39 +1,26 @@
 """
 scraper.py — Main scraping orchestrator.
 
-Calls retailer-specific modules and saves output CSVs to data/raw/scraped/.
-Uses polite crawl delays and user-agent rotation to reduce blocking risk.
+Data sources:
+  1. Kroger — official Kroger Developer API (requires free API key)
+  2. BLS National Average — BLS average prices, approved as substitute (no key needed)
+
+Weekly usage:
+    python scraper/scraper.py
+
+Setup for Kroger API (one-time):
+    See scraper/retailers/retailer_kroger.py for setup instructions.
+    Requires KROGER_CLIENT_ID and KROGER_CLIENT_SECRET env variables.
 """
 
-import time
-import random
 import csv
+import os
 from datetime import date
 from pathlib import Path
-
-from scraper.retailers import retailer_a, retailer_b
-from scraper.utils import get_headers, rate_limit
+from collections import Counter
 
 RAW_DIR = Path("data/raw/scraped")
 RAW_DIR.mkdir(parents=True, exist_ok=True)
-
-TARGET_PRODUCTS = [
-    "milk",
-    "eggs",
-    "bread",
-    "bananas",
-    "chicken breast",
-    "ground beef",
-    "cereal",
-    "pasta",
-    "rice",
-    "canned vegetables",
-]
-
-RETAILERS = {
-    "retailer_a": retailer_a,
-    "retailer_b": retailer_b,
-}
 
 FIELDNAMES = [
     "product_name", "brand", "package_size",
@@ -41,41 +28,53 @@ FIELDNAMES = [
 ]
 
 
-def scrape_all() -> list[dict]:
-    rows = []
+def run_kroger() -> list:
+    if not os.environ.get("KROGER_CLIENT_ID"):
+        print("Kroger: KROGER_CLIENT_ID not set — skipping.")
+        print("  See scraper/retailers/retailer_kroger.py for setup instructions.")
+        return []
+    try:
+        from scraper.retailers.retailer_kroger import scrape_kroger
+        print("\n--- Kroger API ---")
+        return scrape_kroger()
+    except Exception as e:
+        print(f"Kroger scrape failed: {e}")
+        return []
+
+
+def run_bls() -> list:
+    try:
+        from scraper.retailers.retailer_bls import fetch_bls_prices
+        print("\n--- BLS National Average Prices ---")
+        return fetch_bls_prices()
+    except Exception as e:
+        print(f"BLS fetch failed: {e}")
+        return []
+
+
+def save(rows: list):
     today = date.today().isoformat()
-
-    for retailer_name, module in RETAILERS.items():
-        print(f"\nScraping {retailer_name}...")
-        for product in TARGET_PRODUCTS:
-            try:
-                results = module.search(product, headers=get_headers())
-                for r in results:
-                    r["retailer"]    = retailer_name
-                    r["scrape_date"] = today
-                    rows.append(r)
-                rate_limit()
-            except Exception as e:
-                print(f"  Error scraping {product} from {retailer_name}: {e}")
-
-    return rows
-
-
-def save(rows: list[dict]):
-    out = RAW_DIR / f"scrape_{date.today().isoformat()}.csv"
+    out   = RAW_DIR / f"scrape_{today}.csv"
     with open(out, "w", newline="") as f:
         writer = csv.DictWriter(f, fieldnames=FIELDNAMES, extrasaction="ignore")
         writer.writeheader()
         writer.writerows(rows)
-    print(f"\nSaved {len(rows)} rows to {out}")
+    print(f"\nTotal: {len(rows)} rows saved to {out}")
+    counts = Counter(r["retailer"] for r in rows)
+    for retailer, count in counts.items():
+        print(f"  {retailer}: {count} rows")
 
 
 def main():
-    rows = scrape_all()
-    if rows:
-        save(rows)
+    print(f"Scrape run: {date.today().isoformat()}")
+    print("=" * 50)
+    all_rows = []
+    all_rows.extend(run_kroger())
+    all_rows.extend(run_bls())
+    if all_rows:
+        save(all_rows)
     else:
-        print("No rows collected — check scraper modules and network access.")
+        print("\nNo rows collected. Set KROGER_CLIENT_ID to enable Kroger scraping.")
 
 
 if __name__ == "__main__":

@@ -52,14 +52,26 @@ def compute_metrics(y_true: np.ndarray, y_pred: np.ndarray) -> dict:
     }
 
 
-def evaluate_model(model, df: pd.DataFrame, feature_cols: list, target: str) -> dict:
-    available = [c for c in feature_cols if c in df.columns]
+def evaluate_model(df: pd.DataFrame, feature_cols: list, target: str) -> dict:
+    """Train a fresh OLS on train set and evaluate on test set with given features."""
+    from sklearn.linear_model import LinearRegression
+    from sklearn.pipeline import Pipeline
+    from sklearn.preprocessing import StandardScaler
+
+    train_df = pd.read_csv(Path("data/processed/train.csv"), parse_dates=["week_start"])
+    available = [c for c in feature_cols if c in df.columns and c in train_df.columns]
     missing   = [c for c in feature_cols if c not in df.columns]
     if missing:
         print(f"  Warning: missing features {missing} — dropping from eval")
-    sub = df.dropna(subset=available + [target])
-    y_true = sub[target].values
-    y_pred = model.predict(sub[available])
+
+    train_sub = train_df.dropna(subset=available + [target])
+    test_sub  = df.dropna(subset=available + [target])
+
+    pipe = Pipeline([("scaler", StandardScaler()), ("model", LinearRegression())])
+    pipe.fit(train_sub[available].values, train_sub[target].values)
+
+    y_true = test_sub[target].values
+    y_pred = pipe.predict(test_sub[available].values)
     return compute_metrics(y_true, y_pred)
 
 
@@ -102,11 +114,11 @@ def main():
     model = joblib.load(MODEL_PATH)
 
     print("\n--- Evaluation WITH lagged price ---")
-    m_with = evaluate_model(model, df, FEATURES_WITH_LAG, TARGET)
+    m_with = evaluate_model(df, FEATURES_WITH_LAG, TARGET)
     print(json.dumps(m_with, indent=2))
 
     print("\n--- Evaluation WITHOUT lagged price ---")
-    m_without = evaluate_model(model, df, FEATURES_WITHOUT_LAG, TARGET)
+    m_without = evaluate_model(df, FEATURES_WITHOUT_LAG, TARGET)
     print(json.dumps(m_without, indent=2))
 
     print("\n--- Summary ---")
