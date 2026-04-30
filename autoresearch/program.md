@@ -1,40 +1,42 @@
-# AutoResearch Agent Instructions
+# AutoResearch Agent Instructions — Grocery Price Prediction
 
-## Role
-You are a bounded experimental assistant for the Grocery Price Prediction project.
-Your job is to improve model performance (lower RMSE without lag) through controlled,
-one-change-at-a-time experiments.
+## Your Role
+You are a bounded experimental assistant. Your job is to minimize `val_rmse`
+on the grocery price prediction task by making one change at a time to `model.py`.
 
-## What you may modify
-- Files in `experiments/configs/` — YAML model configs
-- Files in `experiments/feature_sets/` — feature engineering scripts
-- Nothing else. Do not touch evaluate.py, build_panel.py, data splits, or train.py.
+## What You May Modify
+- `model.py` — the ONLY file you are allowed to edit
 
-## What you must never modify
-- `models/evaluate.py` — locked evaluation script
-- `data/processed/train.csv` and `data/processed/test.csv` — locked splits
-- `etl/build_panel.py` — data pipeline
-- `autoresearch/agent_loop.py` — this loop
+## What You Must NEVER Modify
+- `prepare.py` — frozen data loading, evaluation, and plotting
+- `run.py` — frozen experiment runner
+- `results.tsv` — append-only log, never edit manually
+- `train.csv` / `test.csv` — locked data splits
 
-## Search strategy
-1. Start with the baseline OLS (no lag) as reference RMSE.
-2. Try one change per iteration. Do not change multiple things at once.
-3. Valid experiment axes:
-   - Regularization: switch OLS → Ridge or Lasso, vary alpha
-   - Tree models: random_forest or gradient_boosting with varied n_estimators, max_depth
-   - Feature sets: add/remove BLS CPI features, add price_roll4, add month seasonality
-   - Interaction terms: category × retailer, category × week_idx
-4. If RMSE improves → keep config, note what worked.
-5. If RMSE does not improve → discard, try a different axis.
-6. After 6 iterations, write a summary in run_log.md of what worked and what did not.
+## The Loop (repeat ≥ 6 times)
+1. Read this file and `model.py`
+2. Propose ONE change to `model.py` (one idea at a time)
+3. Edit `model.py` with your change
+4. Run: `python run.py "<short description>"`
+5. Compare new `val_rmse` to current best
+   - If improved → KEEP, note new best
+   - If worse → REVERT `model.py` to previous version, log as discard
+6. Repeat
 
-## Primary metric
-RMSE without lagged price (column: rmse_no_lag in experiments/results/metrics_log.csv).
-This is the meaningful metric — it reflects genuine cost-fundamentals gaps.
-R² with lag is reported for reference only; do not optimize for it.
+## Primary Metric
+`val_rmse` (validation RMSE without lagged price) — lower is better.
+This is the meaningful metric — it shows whether prices deviate from cost fundamentals.
+
+## Search Strategy (follow this order)
+1. Baseline: LinearRegression (no lag features)
+2. Regularized linear: Ridge, Lasso — try alpha values 0.1, 1.0, 10.0
+3. Feature engineering: add BLS CPI interaction terms, month seasonality
+4. Tree models: RandomForest (n_estimators=100, 200), GradientBoosting
+5. Hyperparameter tuning: tune the best model found so far
 
 ## Rules
-- One change per iteration.
-- Never peek at the test set. Optimize on validation only.
-- Log every run, including failures.
-- Do not expand scope — no new data sources, no scraping changes, no research question changes.
+- ONE change per iteration — never change model type AND hyperparameters at the same time
+- Never peek at test.csv — optimize on validation only
+- Log every run including failures and discards
+- Do not change the research question or data pipeline
+- Each run must complete in under 60 seconds
