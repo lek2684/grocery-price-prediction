@@ -1,8 +1,23 @@
-timestamp,run_id,mae_with_lag,rmse_with_lag,r2_with_lag,mae_no_lag,rmse_no_lag,r2_no_lag,n_test,notes
-2026-04-23T06:20:42.843657,baseline_ols,0.053919,0.081115,0.998304,0.053992,0.081243,0.998299,220,"OLS baseline on synthetic data, time-based split, 820 train / 220 test rows"
-2026-04-23T06:21:04.795093,baseline_ols_timed,0.053919,0.081115,0.998304,0.053992,0.081243,0.998299,220,
-2026-04-23T15:43:25.990152,exp1_ridge_a1,0.053919,0.081115,0.998304,0.053992,0.081243,0.998299,220,
-2026-04-23T15:43:34.899667,exp2_ridge_a10,0.053919,0.081115,0.998304,0.053992,0.081243,0.998299,220,
-2026-04-23T15:43:44.146579,exp3_lasso_a001,0.053919,0.081115,0.998304,0.053992,0.081243,0.998299,220,
-2026-04-23T15:43:53.986087,exp4_rf,0.053919,0.081115,0.998304,0.053992,0.081243,0.998299,220,
-2026-04-23T15:44:03.210597,exp5_ols_with_lag,0.053919,0.081115,0.998304,0.053992,0.081243,0.998299,220,
+experiment	val_rmse	val_r2	status	description
+no-git	0.070276	0.998710	baseline	baseline: LinearRegression no lag
+no-git	0.070124	0.998716	keep	Ridge alpha=1.0
+no-git	0.077503	0.998431	keep	RandomForest n=100
+no-git	0.067889	0.998796	keep	GradientBoosting n=200 depth=4 lr=0.05
+no-git	0.067255	0.998818	discard	Lasso alpha=0.01
+no-git	0.069107	0.998752	keep	GradientBoosting n=400 depth=3 lr=0.03 sub=0.8
+no-git	0.146272	0.994411	keep	HistGradientBoosting iter=300 depth=6 lr=0.05
+no-git	0.071350	0.998670	keep	PolyFeatures degree=2 interactions + Ridge
+no-git	0.082224	0.998234	keep	ExtraTrees n=200 njobs=-1
+no-git	0.070274	0.998710	keep	Ridge alpha=0.01
+no-git	0.066561	0.998843	keep	GBT n=300 depth=4 lr=0.04 sub=0.7 leaf=5
+no-git	0.066292	0.998852	keep	GBT n=500 depth=4 lr=0.02 sub=0.7 leaf=5
+no-git	0.069842	0.998726	discard	ElasticNet alpha=0.001 l1=0.5
+no-git	0.070389	0.998706	keep	RandomForest n=300 depth=10 leaf=3
+no-git	0.066148	0.998857	keep	GBT n=800 depth=4 lr=0.01 sub=0.7 leaf=5
+loop	0.066148	0.998857	keep	iteration_2
+auto	0.070253	0.998711	discard	Ridge alpha=0.1
+auto	0.070253	0.998711	discard	Ridge alpha=5.0
+auto	0.066256	0.998853	discard	GBT n=1000 depth=4 lr=0.008 sub=0.7
+auto	0.064371	0.998918	keep	GBT n=800 depth=3 lr=0.01 sub=0.6
+auto	0.064371	0.998918	discard	GBT n=800 depth=5 lr=0.01 sub=0.7
+auto	0.071619	0.998660	discard	RandomForest n=500 depth=15 leaf=2
