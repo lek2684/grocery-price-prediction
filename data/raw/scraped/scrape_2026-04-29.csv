@@ -1,0 +1,19 @@
+product_name,brand,package_size,price,unit_price,retailer,scrape_date,category
+milk,Simple Truth Organic,,4.99,,kroger,2026-04-29,dairy
+eggs,Kroger,,1.79,,kroger,2026-04-29,dairy
+bread,Nature's Own,,2.49,,kroger,2026-04-29,bakery
+bananas,,,0.75,,kroger,2026-04-29,produce
+chicken breast,Kroger,,5.0,,kroger,2026-04-29,meat
+ground beef,Kroger,,12.0,,kroger,2026-04-29,meat
+cereal,Cheerios,,4.99,,kroger,2026-04-29,dry_goods
+pasta,Kroger,,1.25,,kroger,2026-04-29,dry_goods
+rice,Mahatma,,6.29,,kroger,2026-04-29,dry_goods
+canned vegetables,Kroger,,1.09,,kroger,2026-04-29,canned_goods
+eggs,BLS National Average,per dozen (2026-03),2.348,2.348,bls_national_avg,2026-04-29,dairy
+milk,BLS National Average,per gallon (2026-03),4.067,4.067,bls_national_avg,2026-04-29,dairy
+bread,BLS National Average,per lb (2026-03),1.808,1.808,bls_national_avg,2026-04-29,bakery
+bananas,BLS National Average,per lb (2026-03),0.657,0.657,bls_national_avg,2026-04-29,produce
+chicken breast,BLS National Average,per lb (2026-03),2.033,2.033,bls_national_avg,2026-04-29,meat
+ground beef,BLS National Average,per lb (2026-03),6.701,6.701,bls_national_avg,2026-04-29,meat
+rice,BLS National Average,per lb (2026-03),2.255,2.255,bls_national_avg,2026-04-29,dry_goods
+pasta,BLS National Average,per lb (2026-03),1.06,1.06,bls_national_avg,2026-04-29,dry_goods
