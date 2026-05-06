@@ -40,14 +40,14 @@ EXPERIMENTS = [
     {
         "description": "GBT n=600 depth=3 lr=0.01 sub=0.6 [axis:n_estimators]",
         "axis":        "n_estimators",
-        "changed":     "n_estimators: 800 → 600",
+        "changed":     "n_estimators: 800 -> 600",
         "fixed":       "depth=3, lr=0.01, sub=0.6, leaf=5",
         "hypothesis":  "Fewer trees may underfit — expecting worse RMSE than current best",
         "code": """from sklearn.ensemble import GradientBoostingRegressor
 from sklearn.pipeline import Pipeline
 
 def build_model():
-    \"\"\"Axis: n_estimators. Changed: 800→600. Fixed: depth=3, lr=0.01, sub=0.6\"\"\"
+    \"\"\"Axis: n_estimators. Changed: 800->600. Fixed: depth=3, lr=0.01, sub=0.6\"\"\"
     return Pipeline([("model", GradientBoostingRegressor(
         n_estimators=600, max_depth=3, learning_rate=0.01,
         subsample=0.6, min_samples_leaf=5, random_state=42
@@ -57,14 +57,14 @@ def build_model():
     {
         "description": "GBT n=1000 depth=3 lr=0.01 sub=0.6 [axis:n_estimators]",
         "axis":        "n_estimators",
-        "changed":     "n_estimators: 800 → 1000",
+        "changed":     "n_estimators: 800 -> 1000",
         "fixed":       "depth=3, lr=0.01, sub=0.6, leaf=5",
         "hypothesis":  "More trees with same lr may further reduce RMSE — expecting small improvement",
         "code": """from sklearn.ensemble import GradientBoostingRegressor
 from sklearn.pipeline import Pipeline
 
 def build_model():
-    \"\"\"Axis: n_estimators. Changed: 800→1000. Fixed: depth=3, lr=0.01, sub=0.6\"\"\"
+    \"\"\"Axis: n_estimators. Changed: 800->1000. Fixed: depth=3, lr=0.01, sub=0.6\"\"\"
     return Pipeline([("model", GradientBoostingRegressor(
         n_estimators=1000, max_depth=3, learning_rate=0.01,
         subsample=0.6, min_samples_leaf=5, random_state=42
@@ -74,14 +74,14 @@ def build_model():
     {
         "description": "GBT n=1500 depth=3 lr=0.01 sub=0.6 [axis:n_estimators]",
         "axis":        "n_estimators",
-        "changed":     "n_estimators: 800 → 1500",
+        "changed":     "n_estimators: 800 -> 1500",
         "fixed":       "depth=3, lr=0.01, sub=0.6, leaf=5",
         "hypothesis":  "Pushing trees further — may hit diminishing returns or overfit",
         "code": """from sklearn.ensemble import GradientBoostingRegressor
 from sklearn.pipeline import Pipeline
 
 def build_model():
-    \"\"\"Axis: n_estimators. Changed: 800→1500. Fixed: depth=3, lr=0.01, sub=0.6\"\"\"
+    \"\"\"Axis: n_estimators. Changed: 800->1500. Fixed: depth=3, lr=0.01, sub=0.6\"\"\"
     return Pipeline([("model", GradientBoostingRegressor(
         n_estimators=1500, max_depth=3, learning_rate=0.01,
         subsample=0.6, min_samples_leaf=5, random_state=42
@@ -92,14 +92,14 @@ def build_model():
     {
         "description": "GBT n=800 depth=3 lr=0.005 sub=0.6 [axis:learning_rate]",
         "axis":        "learning_rate",
-        "changed":     "learning_rate: 0.01 → 0.005",
+        "changed":     "learning_rate: 0.01 -> 0.005",
         "fixed":       "n=800, depth=3, sub=0.6, leaf=5",
         "hypothesis":  "Lower lr means smaller steps — may need more trees to converge, likely worse with fixed n=800",
         "code": """from sklearn.ensemble import GradientBoostingRegressor
 from sklearn.pipeline import Pipeline
 
 def build_model():
-    \"\"\"Axis: learning_rate. Changed: 0.01→0.005. Fixed: n=800, depth=3, sub=0.6\"\"\"
+    \"\"\"Axis: learning_rate. Changed: 0.01->0.005. Fixed: n=800, depth=3, sub=0.6\"\"\"
     return Pipeline([("model", GradientBoostingRegressor(
         n_estimators=800, max_depth=3, learning_rate=0.005,
         subsample=0.6, min_samples_leaf=5, random_state=42
@@ -109,14 +109,14 @@ def build_model():
     {
         "description": "GBT n=800 depth=3 lr=0.02 sub=0.6 [axis:learning_rate]",
         "axis":        "learning_rate",
-        "changed":     "learning_rate: 0.01 → 0.02",
+        "changed":     "learning_rate: 0.01 -> 0.02",
         "fixed":       "n=800, depth=3, sub=0.6, leaf=5",
         "hypothesis":  "Higher lr means larger steps — may converge faster but overshoot minimum",
         "code": """from sklearn.ensemble import GradientBoostingRegressor
 from sklearn.pipeline import Pipeline
 
 def build_model():
-    \"\"\"Axis: learning_rate. Changed: 0.01→0.02. Fixed: n=800, depth=3, sub=0.6\"\"\"
+    \"\"\"Axis: learning_rate. Changed: 0.01->0.02. Fixed: n=800, depth=3, sub=0.6\"\"\"
     return Pipeline([("model", GradientBoostingRegressor(
         n_estimators=800, max_depth=3, learning_rate=0.02,
         subsample=0.6, min_samples_leaf=5, random_state=42
@@ -127,14 +127,14 @@ def build_model():
     {
         "description": "GBT n=800 depth=3 lr=0.01 sub=0.5 [axis:subsample]",
         "axis":        "subsample",
-        "changed":     "subsample: 0.6 → 0.5",
+        "changed":     "subsample: 0.6 -> 0.5",
         "fixed":       "n=800, depth=3, lr=0.01, leaf=5",
         "hypothesis":  "More aggressive subsampling adds regularization — may reduce overfitting on smooth data",
         "code": """from sklearn.ensemble import GradientBoostingRegressor
 from sklearn.pipeline import Pipeline
 
 def build_model():
-    \"\"\"Axis: subsample. Changed: 0.6→0.5. Fixed: n=800, depth=3, lr=0.01\"\"\"
+    \"\"\"Axis: subsample. Changed: 0.6->0.5. Fixed: n=800, depth=3, lr=0.01\"\"\"
     return Pipeline([("model", GradientBoostingRegressor(
         n_estimators=800, max_depth=3, learning_rate=0.01,
         subsample=0.5, min_samples_leaf=5, random_state=42
@@ -144,14 +144,14 @@ def build_model():
     {
         "description": "GBT n=800 depth=3 lr=0.01 sub=0.8 [axis:subsample]",
         "axis":        "subsample",
-        "changed":     "subsample: 0.6 → 0.8",
+        "changed":     "subsample: 0.6 -> 0.8",
         "fixed":       "n=800, depth=3, lr=0.01, leaf=5",
         "hypothesis":  "Less subsampling uses more data per tree — may help on small dataset but reduces regularization",
         "code": """from sklearn.ensemble import GradientBoostingRegressor
 from sklearn.pipeline import Pipeline
 
 def build_model():
-    \"\"\"Axis: subsample. Changed: 0.6→0.8. Fixed: n=800, depth=3, lr=0.01\"\"\"
+    \"\"\"Axis: subsample. Changed: 0.6->0.8. Fixed: n=800, depth=3, lr=0.01\"\"\"
     return Pipeline([("model", GradientBoostingRegressor(
         n_estimators=800, max_depth=3, learning_rate=0.01,
         subsample=0.8, min_samples_leaf=5, random_state=42
@@ -162,14 +162,14 @@ def build_model():
     {
         "description": "GBT n=800 depth=3 lr=0.01 sub=0.6 leaf=2 [axis:min_samples_leaf]",
         "axis":        "min_samples_leaf",
-        "changed":     "min_samples_leaf: 5 → 2",
+        "changed":     "min_samples_leaf: 5 -> 2",
         "fixed":       "n=800, depth=3, lr=0.01, sub=0.6",
         "hypothesis":  "Smaller leaf size allows finer splits — may capture more detail or overfit",
         "code": """from sklearn.ensemble import GradientBoostingRegressor
 from sklearn.pipeline import Pipeline
 
 def build_model():
-    \"\"\"Axis: min_samples_leaf. Changed: 5→2. Fixed: n=800, depth=3, lr=0.01, sub=0.6\"\"\"
+    \"\"\"Axis: min_samples_leaf. Changed: 5->2. Fixed: n=800, depth=3, lr=0.01, sub=0.6\"\"\"
     return Pipeline([("model", GradientBoostingRegressor(
         n_estimators=800, max_depth=3, learning_rate=0.01,
         subsample=0.6, min_samples_leaf=2, random_state=42
@@ -217,7 +217,7 @@ def restore_model():
 
 
 def write_model(code: str):
-    MODEL_FILE.write_text(code)
+    MODEL_FILE.write_text(code, encoding="utf-8")
 
 
 def run_experiment() -> tuple[float, float]:
@@ -277,7 +277,7 @@ def main():
             if improved:
                 status = "keep"
                 print(f"\n  ✅ RESULT: IMPROVED")
-                print(f"  RMSE: {best:.6f} → {rmse:.6f} (Δ = {best-rmse:.6f})")
+                print(f"  RMSE: {best:.6f} -> {rmse:.6f} (Δ = {best-rmse:.6f})")
                 best = rmse
             else:
                 status = "discard"
