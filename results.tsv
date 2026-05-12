@@ -73,3 +73,9 @@ w4	0.065478	0.998880	discard	GBT n=800 depth=3 lr=0.02 sub=0.6 [axis:learning_ra
 w4	0.064167	0.998924	discard	GBT n=800 depth=3 lr=0.01 sub=0.5 [axis:subsample]
 w4	0.064332	0.998919	discard	GBT n=800 depth=3 lr=0.01 sub=0.8 [axis:subsample]
 w4	0.066423	0.998848	discard	GBT n=800 depth=3 lr=0.01 sub=0.6 leaf=2 [axis:min_samples_leaf]
+cf17458	0.064213	0.998923	discard	GBT n_estimators=800 subsample=0.7
+cf17458	0.066078	0.998859	discard	GBT min_samples_leaf=1
+cf17458	0.064371	0.998918	discard	GBT n_estimators=800
+cf17458	0.065176	0.998890	discard	GBT max_depth=4
+cf17458	0.064127	0.998926	discard	GBT learning_rate=0.008
+cf17458	0.063671	0.998941	keep	GBT subsample=0.7
