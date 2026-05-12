@@ -79,3 +79,37 @@ cf17458	0.064371	0.998918	discard	GBT n_estimators=800
 cf17458	0.065176	0.998890	discard	GBT max_depth=4
 cf17458	0.064127	0.998926	discard	GBT learning_rate=0.008
 cf17458	0.063671	0.998941	keep	GBT subsample=0.7
+b4a01ef	0.159155	0.993383	keep	XGBoost n=600 depth=3 lr=0.01 sub=0.7 col=0.8
+b4a01ef	0.063671	0.998941	discard	XGBoost n=600 depth=3 lr=0.01 sub=0.7 col=0.8
+b4a01ef	0.163335	0.993031	keep	XGBoost n=1000 depth=3 lr=0.01 sub=0.7 lambda=0
+b4a01ef	0.063671	0.998941	discard	XGBoost n=1000 depth=3 lr=0.01 lambda=0
+b4a01ef	0.070594	0.998698	keep	LightGBM n=800 leaves=31 lr=0.01 sub=0.7 col=0.8
+b4a01ef	0.063671	0.998941	discard	LightGBM n=800 leaves=31 lr=0.01
+b4a01ef	0.066377	0.998849	keep	LightGBM n=1000 depth=3 leaves=8 lr=0.01 sub=0.7
+b4a01ef	0.063671	0.998941	discard	LightGBM depth=3 leaves=8
+b4a01ef	0.063862	0.998935	keep	FeatEng: sin/cos week + cat*retailer + GBT n=600
+b4a01ef	0.063671	0.998941	discard	FeatEng sin/cos week + cat*retailer
+b4a01ef	0.063749	0.998938	keep	FeatEng: week_of_year + log_price + cat*retailer + GBT
+b4a01ef	0.063671	0.998941	discard	FeatEng week_of_year+log_price+cat*ret
+b4a01ef	0.143453	0.994624	keep	HistGBT max_iter=600 depth=3 lr=0.01 leaf=5
+b4a01ef	0.063671	0.998941	discard	HistGBT depth=3 lr=0.01
+b4a01ef	0.220772	0.987268	keep	SVR RBF C=10 epsilon=0.01 gamma=scale
+b4a01ef	0.063671	0.998941	discard	SVR RBF C=10
+b4a01ef	0.063678	0.998941	keep	OHE category+retailer + GBT n=600 depth=3 lr=0.01
+b4a01ef	0.063671	0.998941	discard	OHE category+retailer + GBT
+b4a01ef	0.067969	0.998793	keep	GBT n=600 depth=3 lr=0.01 sub=0.7 max_feat=sqrt
+b4a01ef	0.063671	0.998941	discard	GBT max_features=sqrt
+b4a01ef	0.070148	0.998715	keep	Stacking GBT+Ridge -> Ridge meta
+b4a01ef	0.063671	0.998941	discard	Stacking GBT+Ridge meta
+b4a01ef	0.063658	0.998941	keep	GBT huber loss alpha=0.9 n=600 depth=3 lr=0.01 sub=0.7
+b4a01ef	0.063432	0.998949	keep	GBT huber alpha=0.95 n=600 depth=3 lr=0.01 sub=0.7
+b4a01ef	0.063795	0.998937	keep	GBT huber alpha=0.99 n=600 depth=3 lr=0.01 sub=0.7
+b4a01ef	0.063432	0.998949	discard	GBT huber alpha=0.99
+b4a01ef	0.064034	0.998929	keep	GBT huber alpha=0.95 n=800 depth=3 lr=0.01 sub=0.7
+b4a01ef	0.063432	0.998949	discard	GBT huber alpha=0.95 n=800
+b4a01ef	0.063522	0.998946	keep	GBT huber=0.95 + FeatEng week_of_year+cat*ret+log_price
+b4a01ef	0.063432	0.998949	discard	GBT huber + FeatEng
+b4a01ef	0.063416	0.998950	keep	GBT huber alpha=0.95 n=600 depth=3 lr=0.01 sub=0.65
+b4a01ef	0.063612	0.998943	keep	GBT huber alpha=0.95 n=600 depth=3 lr=0.01 sub=0.60
+b4a01ef	0.063416	0.998950	discard	GBT huber sub=0.60
+b4a01ef	0.064339	0.998919	keep	GBT huber alpha=0.95 sub=0.65 leaf=3

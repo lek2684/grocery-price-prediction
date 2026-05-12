@@ -1,0 +1,26 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cp \"C:\\\\Users\\\\EmilyKessel\\\\Downloads\\\\grocery-price-prediction\\\\week3_clean\\\\model_backup.py\" \"C:\\\\Users\\\\EmilyKessel\\\\Downloads\\\\grocery-price-prediction\\\\week3_clean\\\\model.py\")",
+      "Bash(python run.py \"SVR RBF C=10\" --discard)",
+      "Bash(python -c ' *)",
+      "Bash(python run.py \"OHE category+retailer + GBT n=600 depth=3 lr=0.01\")",
+      "Bash(python run.py \"OHE category+retailer + GBT\" --discard)",
+      "Bash(python run.py \"GBT n=600 depth=3 lr=0.01 sub=0.7 max_feat=sqrt\")",
+      "Bash(python run.py \"GBT max_features=sqrt\" --discard)",
+      "Bash(python run.py \"Stacking GBT+Ridge -> Ridge meta\")",
+      "Bash(python run.py \"Stacking GBT+Ridge meta\" --discard)",
+      "Bash(python run.py \"GBT huber loss alpha=0.9 n=600 depth=3 lr=0.01 sub=0.7\")",
+      "Bash(python run.py \"GBT huber alpha=0.95 n=600 depth=3 lr=0.01 sub=0.7\")",
+      "Bash(python run.py \"GBT huber alpha=0.99\" --discard)",
+      "Bash(python run.py \"GBT huber alpha=0.95 n=800 depth=3 lr=0.01 sub=0.7\")",
+      "Bash(python run.py \"GBT huber alpha=0.95 n=800\" --discard)",
+      "Bash(python run.py \"GBT huber + FeatEng\" --discard)",
+      "Bash(python run.py \"GBT huber alpha=0.95 n=600 depth=3 lr=0.01 sub=0.65\")",
+      "Bash(python run.py \"GBT huber alpha=0.95 n=600 depth=3 lr=0.01 sub=0.60\")",
+      "Bash(python run.py \"GBT huber sub=0.60\" --discard)",
+      "Bash(python run.py \"GBT huber alpha=0.95 sub=0.65 leaf=3\")",
+      "/allowed-tools Bash,Edit,Write"
+    ]
+  }
+}
