@@ -113,3 +113,13 @@ b4a01ef	0.063416	0.998950	keep	GBT huber alpha=0.95 n=600 depth=3 lr=0.01 sub=0.
 b4a01ef	0.063612	0.998943	keep	GBT huber alpha=0.95 n=600 depth=3 lr=0.01 sub=0.60
 b4a01ef	0.063416	0.998950	discard	GBT huber sub=0.60
 b4a01ef	0.064339	0.998919	keep	GBT huber alpha=0.95 sub=0.65 leaf=3
+161365f	0.064672	0.998907	keep	GBT huber alpha=0.95 n=600 depth=3 lr=0.01 sub=0.67
+161365f	0.065676	0.998873	keep	GBT huber alpha=0.95 n=650 depth=3 lr=0.01 sub=0.65
+161365f	0.067233	0.998819	keep	GBT huber alpha=0.95 n=600 depth=3 lr=0.01 sub=0.65 max_feat=log2
+161365f	0.063962	0.998931	keep	GBT huber alpha=0.95 depth=3 lr=0.01 sub=0.65 early_stop n_no_change=20
+161365f	0.063842	0.998935	keep	GBT huber alpha=0.95 n=600 depth=3 lr=0.01 sub=0.65 ccp_alpha=0.0001
+161365f	0.064633	0.998909	keep	GBT huber alpha=0.95 n=600 depth=3 lr=0.01 sub=0.65 min_samples_split=4
+161365f	0.063513	0.998946	keep	GBT huber alpha=0.95 n=500 depth=3 lr=0.01 sub=0.65
+161365f	0.063212	0.998956	keep	GBT huber alpha=0.93 n=600 depth=3 lr=0.01 sub=0.65
+161365f	0.063149	0.998958	keep	GBT huber alpha=0.92 n=600 depth=3 lr=0.01 sub=0.65
+161365f	0.063293	0.998954	keep	GBT huber alpha=0.91 n=600 depth=3 lr=0.01 sub=0.65
