@@ -1,4 +1,4 @@
-﻿# AutoResearch Agent Instructions — Grocery Price Prediction
+# AutoResearch Agent Instructions — Grocery Price Prediction
 
 ## Your Role
 
@@ -63,9 +63,8 @@ For each iteration:
 6. Compare the new `val_rmse` to the previous best.
 7. If improved, keep the new `model.py`.
 8. If not improved, revert `model.py` to the previous best version.
-9. Run `python prepare.py` to regenerate `performance.png`.
-10. Classify the run as `keep`, `discard`, or `crash`.
-11. Continue until exactly 5 iterations are complete.
+9. Classify the run as `keep`, `discard`, or `crash`.
+10. Continue until exactly 5 iterations are complete.
 
 ## Experiment Discipline
 

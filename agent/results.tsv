@@ -123,3 +123,6 @@ b4a01ef	0.064339	0.998919	keep	GBT huber alpha=0.95 sub=0.65 leaf=3
 161365f	0.063212	0.998956	keep	GBT huber alpha=0.93 n=600 depth=3 lr=0.01 sub=0.65
 161365f	0.063149	0.998958	keep	GBT huber alpha=0.92 n=600 depth=3 lr=0.01 sub=0.65
 161365f	0.063293	0.998954	keep	GBT huber alpha=0.91 n=600 depth=3 lr=0.01 sub=0.65
+3bd046e	0.063610	0.998943	keep	GBT huber alpha=0.92 n=700 depth=3 lr=0.01 sub=0.65
+3bd046e	0.062855	0.998968	keep	GBT huber alpha=0.92 n=750 depth=3 lr=0.008 sub=0.65
+3bd046e	0.063466	0.998948	keep	GBT huber alpha=0.92 n=900 depth=3 lr=0.008 sub=0.65
