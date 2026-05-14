@@ -1,9 +1,0 @@
-iteration,axis_varied,what_changed,what_fixed,hypothesis,val_rmse,val_r2,status,error_type,train_time_s
-1,n_estimators,n_estimators: 800→600,"depth=3, lr=0.01, sub=0.6, leaf=5",Fewer trees may underfit — expecting worse RMSE,0.063802,0.998937,keep,NONE,0.51
-2,n_estimators,n_estimators: 800→1000,"depth=3, lr=0.01, sub=0.6, leaf=5",More trees may further reduce RMSE — expecting small improvement,0.064834,0.998902,discard,SIGNAL FAILURE,0.81
-3,n_estimators,n_estimators: 800→1500,"depth=3, lr=0.01, sub=0.6, leaf=5",Pushing trees further — may hit diminishing returns,0.065546,0.998878,discard,SIGNAL FAILURE,1.22
-4,learning_rate,learning_rate: 0.01→0.005,"n=800, depth=3, sub=0.6, leaf=5",Lower lr needs more trees to converge — likely worse with fixed n=800,0.070146,0.998715,discard,SIGNAL FAILURE,0.62
-5,learning_rate,learning_rate: 0.01→0.02,"n=800, depth=3, sub=0.6, leaf=5",Higher lr may converge faster but overshoot minimum,0.065478,0.998880,discard,SIGNAL FAILURE,0.63
-6,subsample,subsample: 0.6→0.5,"n=800, depth=3, lr=0.01, leaf=5",More aggressive subsampling adds regularization,0.064167,0.998924,discard,SIGNAL FAILURE,0.62
-7,subsample,subsample: 0.6→0.8,"n=800, depth=3, lr=0.01, leaf=5",Less subsampling uses more data per tree,0.064167,0.998924,discard,SIGNAL FAILURE,0.61
-8,min_samples_leaf,min_samples_leaf: 5→2,"n=800, depth=3, lr=0.01, sub=0.6",Smaller leaf size allows finer splits — may capture more detail,0.066423,0.998848,discard,SIGNAL FAILURE,0.68
